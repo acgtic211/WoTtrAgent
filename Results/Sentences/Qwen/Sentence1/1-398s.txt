@@ -1,0 +1,260 @@
+{
+    "candidates": [
+        {
+            "td_id": "acg:home:movement1",
+            "selector_score": 0.95,
+            "retrieval_reason": "Apprently satisfies the requirement for an event that detects movement.",
+            "td": {
+                "id": "acg:home:movement1",
+                "@context": "https://www.w3.org/2019/wot/td/v1",
+                "actions": {},
+                "base": "http://localhost/agent1/movement1",
+                "description": "Movement sensor located in children bedroom",
+                "events": {},
+                "links": [],
+                "properties": {
+                    "movement": {
+                        "title": "Movement detected by the sensor",
+                        "description": "Value of the movement sensor that changes if it detects movement in the room",
+                        "type": "boolean",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent1/movement1/movement",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    },
+                    "lastChange": {
+                        "title": "Last time movement was detected",
+                        "description": "It indicates the last time the movement sensor detected movement",
+                        "type": "number",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent1/movement1/lastChange",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "security": "nosec_sc",
+                "securityDefinitions": {
+                    "nosec_sc": {
+                        "scheme": "nosec"
+                    }
+                },
+                "title": "Movement sensor in the children bedroom"
+            }
+        },
+        {
+            "td_id": "acg:home:movement12",
+            "selector_score": 0.95,
+            "retrieval_reason": "Apprently satisfies the requirement for an event that detects movement.",
+            "td": {
+                "id": "acg:home:movement12",
+                "@context": "https://www.w3.org/2019/wot/td/v1",
+                "actions": {},
+                "base": "http://localhost/agent12/movement12",
+                "description": "Movement sensor located in entrance",
+                "events": {},
+                "links": [],
+                "properties": {
+                    "movement": {
+                        "title": "Movement detected by the sensor",
+                        "description": "Value of the movement sensor that changes if it detects movement in the room",
+                        "type": "boolean",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agen12/movement12/movement",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    },
+                    "lastChange": {
+                        "title": "Last time movement was detected",
+                        "description": "It indicates the last time the movement sensor detected movement",
+                        "type": "number",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent12/movement12/lastChange",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "security": "nosec_sc",
+                "securityDefinitions": {
+                    "nosec_sc": {
+                        "scheme": "nosec"
+                    }
+                },
+                "title": "Movement sensor in the room 12"
+            }
+        },
+        {
+            "td_id": "acg:home:movement20",
+            "selector_score": 0.95,
+            "retrieval_reason": "Apparent satisfies the requirement for an event that detects movement.",
+            "td": {
+                "id": "acg:home:movement20",
+                "@context": "https://www.w3.org/2019/wot/td/v1",
+                "actions": {},
+                "base": "http://localhost/agent20/movement20",
+                "description": "Movement sensor located in room_1",
+                "events": {},
+                "links": [],
+                "properties": {
+                    "movement": {
+                        "title": "Movement detected by the sensor",
+                        "description": "Value of the movement sensor that changes if it detects movement in the room",
+                        "type": "boolean",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agen3/movement20/movement",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    },
+                    "lastChange": {
+                        "title": "Last time movement was detected",
+                        "description": "It indicates the last time the movement sensor detected movement",
+                        "type": "number",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent20/movement20/lastChange",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "security": "nosec_sc",
+                "securityDefinitions": {
+                    "nosec_sc": {
+                        "scheme": "nosec"
+                    }
+                },
+                "title": "Movement sensor in the room 3"
+            }
+        },
+        {
+            "td_id": "acg:home:movement23",
+            "selector_score": 0.95,
+            "retrieval_reason": "Apparent satisfies the requirement for an event that detects movement.",
+            "td": {
+                "id": "acg:home:movement23",
+                "@context": "https://www.w3.org/2019/wot/td/v1",
+                "actions": {},
+                "base": "http://localhost/agent23/movement23",
+                "description": "Movement sensor located in room_4",
+                "events": {},
+                "links": [],
+                "properties": {
+                    "movement": {
+                        "title": "Movement detected by the sensor",
+                        "description": "Value of the movement sensor that changes if it detects movement in the room",
+                        "type": "boolean",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent23/movement23/movement",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    },
+                    "lastChange": {
+                        "title": "Last time movement was detected",
+                        "description": "It indicates the last time the movement sensor detected movement",
+                        "type": "number",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent23/movement23/lastChange",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "security": "nosec_sc",
+                "securityDefinitions": {
+                    "nosec_sc": {
+                        "scheme": "nosec"
+                    }
+                },
+                "title": "Movement sensor in the room 4"
+            }
+        },
+        {
+            "td_id": "acg:home:movement25",
+            "selector_score": 0.95,
+            "retrieval_reason": "Apparent satisfies the requirement for an event that detects movement.",
+            "td": {
+                "id": "acg:home:movement25",
+                "@context": "https://www.w3.org/2019/wot/td/v1",
+                "actions": {},
+                "base": "http://localhost/agent25/movement25",
+                "description": "Movement sensor located in room_6",
+                "events": {},
+                "links": [],
+                "properties": {
+                    "movement": {
+                        "title": "Movement detected by the sensor",
+                        "description": "Value of the movement sensor that changes if it detects movement in the room",
+                        "type": "boolean",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent25/movement25/movement",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    },
+                    "lastChange": {
+                        "title": "Last time movement was detected",
+                        "description": "It indicates the last time the movement sensor detected movement",
+                        "type": "number",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent25/movement25/lastChange",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "security": "nosec_sc",
+                "securityDefinitions": {
+                    "nosec_sc": {
+                        "scheme": "nosec"
+                    }
+                },
+                "title": "Movement sensor in the room 6"
+            }
+        }
+    ],
+    "missing_td_ids": []
+}

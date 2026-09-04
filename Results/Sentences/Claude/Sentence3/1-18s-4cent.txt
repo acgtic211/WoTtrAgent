@@ -1,0 +1,52 @@
+{
+    "candidates": [
+        {
+            "td_id": "acg:home:light1",
+            "selector_score": 0.95,
+            "retrieval_reason": "Explicitly a light bulb device located in the children's bedroom with an action to control light on/off, matching both mandatory constraints and the required control action.",
+            "td": {
+                "id": "acg:home:light1",
+                "@context": "https://www.w3.org/2019/wot/td/v1",
+                "actions": {
+                    "lightOn": {
+                        "title": "Change status of the light",
+                        "forms": [
+                            {
+                                "op": "invokeaction",
+                                "href": "http://localhost/agent1/lightcontrol1/lightOn"
+                            }
+                        ]
+                    }
+                },
+                "base": "http://localhost/agent1/lightcontrol1",
+                "description": "Light bulb located in children bedroom",
+                "events": {},
+                "links": [],
+                "properties": {
+                    "lightOn": {
+                        "title": "Status of the light",
+                        "description": "Value of the light bulb that changes if the light is turned on/off",
+                        "type": "boolean",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent1/lightcontrol1/lightOn",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "security": "nosec_sc",
+                "securityDefinitions": {
+                    "nosec_sc": {
+                        "scheme": "nosec"
+                    }
+                },
+                "title": "Light bulb"
+            }
+        }
+    ],
+    "missing_td_ids": []
+}

@@ -1,0 +1,57 @@
+{
+    "candidates": [
+        {
+            "td_id": "acg:home:heatingcontrol1",
+            "selector_score": 0.85,
+            "retrieval_reason": "This device controls the thermostat status in the dining room, which matches the request to turn on heating in that location.",
+            "td": {
+                "id": "acg:home:heatingcontrol1",
+                "@context": "https://www.w3.org/2019/wot/td/v1",
+                "actions": {
+                    "heatingcontrol": {
+                        "title": "Change the status of the thermostat",
+                        "description": "Turn the thermostat on or off",
+                        "type": "boolean",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent3/heatingcontrol1",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "base": "http://localhost/agent3/heatingcontrol1",
+                "description": "Thermostat controller located in dinning room",
+                "events": {},
+                "links": [],
+                "properties": {
+                    "heatingOn": {
+                        "title": "Thermostat status",
+                        "description": "If the thermostat is on or off",
+                        "type": "boolean",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent3/heatingcontrol1/heatingOn",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "security": "nosec_sc",
+                "securityDefinitions": {
+                    "nosec_sc": {
+                        "scheme": "nosec"
+                    }
+                },
+                "title": "Thermostat controller"
+            }
+        }
+    ],
+    "missing_td_ids": []
+}

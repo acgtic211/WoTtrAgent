@@ -1,0 +1,1386 @@
+/* 1 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451ad"),
+    "deviceId" : "acg:home:battery1",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Battery service",
+    "properties" : [ 
+        "charge", 
+        "charging"
+    ],
+    "summary" : "This is a battery service located in the garage. It reports the current battery charge percentage and whether the battery is currently charging. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451ae"),
+    "deviceId" : "acg:home:battery2",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Battery service",
+    "properties" : [ 
+        "charge", 
+        "charging"
+    ],
+    "summary" : "This is a battery service located in the garage. It reports the current battery charge percentage and whether the battery is currently charging. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451af"),
+    "deviceId" : "acg:home:battery3",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Battery service",
+    "properties" : [ 
+        "charge", 
+        "charging"
+    ],
+    "summary" : "This is a battery service located in the kitchen. It reports the current battery charge percentage and whether the battery is currently charging. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451b0"),
+    "deviceId" : "acg:home:battery4",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Battery service",
+    "properties" : [ 
+        "charge", 
+        "charging"
+    ],
+    "summary" : "This is a battery service located in the water room. It reports the current battery charge percentage and whether the battery is currently charging. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451b1"),
+    "deviceId" : "acg:home:battery5",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Battery service",
+    "properties" : [ 
+        "charge", 
+        "charging"
+    ],
+    "summary" : "This is a battery service located in the entrance. It reports the current battery charge percentage and whether the battery is currently charging. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451b2"),
+    "deviceId" : "acg:home:battery6",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Battery service",
+    "properties" : [ 
+        "charge", 
+        "charging"
+    ],
+    "summary" : "This is a battery service located in the entrance. It reports the current battery charge percentage and whether the battery is currently charging. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451b3"),
+    "deviceId" : "acg:home:doorlock1",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Door lock service",
+    "properties" : [ 
+        "open"
+    ],
+    "summary" : "This is a door lock service located in the dining room. It reports whether the door is currently open or closed, and can open or close the door lock. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451b4"),
+    "deviceId" : "acg:home:doorlock2",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Door lock service",
+    "properties" : [ 
+        "open"
+    ],
+    "summary" : "This is a door lock service located in the living room. It reports whether the door is currently open or closed, and it can modify the door lock to open or close it. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451b5"),
+    "deviceId" : "acg:home:doorlock3",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Door lock service",
+    "properties" : [ 
+        "open"
+    ],
+    "summary" : "This is a door lock service located at the entrance. It reports whether the door is currently open or closed, and it can open or close the door lock. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 10 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451b6"),
+    "deviceId" : "acg:home:doorlock4",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Door lock service",
+    "properties" : [ 
+        "open"
+    ],
+    "summary" : "This is a door lock service located in room_1. It reports whether the door is currently open or closed, and it can modify the door lock to open or close it. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 11 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451b7"),
+    "deviceId" : "acg:home:doorlock5",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Door lock service",
+    "properties" : [ 
+        "open"
+    ],
+    "summary" : "This is a door lock service located in room_2. It reports whether the door is currently open or closed, and it can open or close the door lock. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 12 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451b8"),
+    "deviceId" : "acg:home:heatingcontrol1",
+    "actions" : [ 
+        "heatingcontrol"
+    ],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Thermostat controller",
+    "properties" : [ 
+        "heatingOn"
+    ],
+    "summary" : "This is a thermostat controller located in the dining room. It reports whether the thermostat is currently on or off, and it can turn the thermostat on or off. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 13 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451b9"),
+    "deviceId" : "acg:home:heatingcontrol2",
+    "actions" : [ 
+        "heatingcontrol"
+    ],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Thermostat controller",
+    "properties" : [ 
+        "heatingOn"
+    ],
+    "summary" : "This is a thermostat controller located in the water room. It reports whether the thermostat is currently on or off, and it can turn the thermostat on or off. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 14 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451ba"),
+    "deviceId" : "acg:home:heatingcontrol3",
+    "actions" : [ 
+        "heatingcontrol"
+    ],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Thermostat controller",
+    "properties" : [ 
+        "heatingOn"
+    ],
+    "summary" : "This is a thermostat controller located in the entrance. It reports whether the thermostat is currently on or off, and it can turn the thermostat on or off. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 15 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451bb"),
+    "deviceId" : "acg:home:heatingcontrol4",
+    "actions" : [ 
+        "heatingcontrol"
+    ],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Thermostat controller",
+    "properties" : [ 
+        "heatingOn"
+    ],
+    "summary" : "This is a thermostat controller located in room_6. It reports whether the thermostat is currently on or off, and it can turn the thermostat on or off. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 16 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451bc"),
+    "deviceId" : "acg:home:light1",
+    "actions" : [ 
+        "lightOn"
+    ],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Light bulb",
+    "properties" : [ 
+        "lightOn"
+    ],
+    "summary" : "This is a light bulb located in the children's bedroom. It reports whether the light is currently on or off, and it can change the light's status (turn it on/off). It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 17 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451bd"),
+    "deviceId" : "acg:home:light10",
+    "actions" : [ 
+        "lightOn"
+    ],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Light bulb",
+    "properties" : [ 
+        "lightOn"
+    ],
+    "summary" : "This is a light bulb located in the living room. It reports whether the light is currently on or off, and it can turn the light on. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 18 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451be"),
+    "deviceId" : "acg:home:light11",
+    "actions" : [ 
+        "lightOn"
+    ],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Light bulb",
+    "properties" : [ 
+        "lightOn"
+    ],
+    "summary" : "This is a light bulb located in the water room. It reports whether the light is currently on or off, and it can be turned on or off. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 19 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451bf"),
+    "deviceId" : "acg:home:light12",
+    "actions" : [ 
+        "lightOn"
+    ],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Light bulb",
+    "properties" : [ 
+        "lightOn"
+    ],
+    "summary" : "This is a light bulb located in the entrance. It reports whether the light is currently on or off, and it can change the status of the light. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 20 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451c0"),
+    "deviceId" : "acg:home:light13",
+    "actions" : [ 
+        "lightOn"
+    ],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Light bulb",
+    "properties" : [ 
+        "lightOn"
+    ],
+    "summary" : "This is a light bulb located in the bedroom. It reports whether the light is currently on or off, and it can turn the light on or off. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 21 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451c1"),
+    "deviceId" : "acg:home:light14",
+    "actions" : [ 
+        "lightOn"
+    ],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Light bulb",
+    "properties" : [ 
+        "lightOn"
+    ],
+    "summary" : "This is a light bulb located in the shower room. It reports whether the light is currently on or off, and it can turn the light on. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 22 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451c2"),
+    "deviceId" : "acg:home:light2",
+    "actions" : [ 
+        "lightOn"
+    ],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Light bulb",
+    "properties" : [ 
+        "lightOn"
+    ],
+    "summary" : "This is a light bulb located in the parent bedroom. It reports whether the light is currently on or off, and it can be turned on or off. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 23 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451c3"),
+    "deviceId" : "acg:home:light20",
+    "actions" : [ 
+        "lightOn"
+    ],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Light bulb",
+    "properties" : [ 
+        "lightOn"
+    ],
+    "summary" : "This is a light bulb located in room_1. It reports whether the light is currently on or off, and it can turn the light on. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 24 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451c4"),
+    "deviceId" : "acg:home:light21",
+    "actions" : [ 
+        "lightOn"
+    ],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Light bulb",
+    "properties" : [ 
+        "lightOn"
+    ],
+    "summary" : "This is a light bulb located in room_2. It reports whether the light is currently on or off, and it can turn the light on. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 25 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451c5"),
+    "deviceId" : "acg:home:light22",
+    "actions" : [ 
+        "lightOn"
+    ],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Light bulb",
+    "properties" : [ 
+        "lightOn"
+    ],
+    "summary" : "This is a light bulb located in room_3. It reports whether the light is currently on or off, and it can turn the light on. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 26 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451c6"),
+    "deviceId" : "acg:home:light23",
+    "actions" : [ 
+        "lightOn"
+    ],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Light bulb",
+    "properties" : [ 
+        "lightOn"
+    ],
+    "summary" : "This is a light bulb located in room_4. It reports whether the light is currently on or off, and it can turn the light on. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 27 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451c7"),
+    "deviceId" : "acg:home:light24",
+    "actions" : [ 
+        "lightOn"
+    ],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Light bulb",
+    "properties" : [ 
+        "lightOn"
+    ],
+    "summary" : "This is a light bulb located in room_5. It reports whether the light is currently on or off, and it can turn the light on. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 28 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451c8"),
+    "deviceId" : "acg:home:light25",
+    "actions" : [ 
+        "lightOn"
+    ],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Light bulb",
+    "properties" : [ 
+        "lightOn"
+    ],
+    "summary" : "This is a light bulb located in room 6. It reports whether the light is currently on or off, and it can turn the light on. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 29 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451c9"),
+    "deviceId" : "acg:home:light26",
+    "actions" : [ 
+        "lightOn"
+    ],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Light bulb",
+    "properties" : [ 
+        "lightOn"
+    ],
+    "summary" : "This is a light bulb located in room_7. It reports whether the light is currently on or off, and it can be turned on. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 30 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451ca"),
+    "deviceId" : "acg:home:light27",
+    "actions" : [ 
+        "lightOn"
+    ],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Light bulb",
+    "properties" : [ 
+        "lightOn"
+    ],
+    "summary" : "This is a light bulb located in room_8. It reports whether the light is currently on or off, and it can be turned on or off remotely. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 31 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451cb"),
+    "deviceId" : "acg:home:light28",
+    "actions" : [ 
+        "lightOn"
+    ],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Light bulb",
+    "properties" : [ 
+        "lightOn"
+    ],
+    "summary" : "This is a light bulb located in room_9. It reports whether the light is currently on or off, and it can be turned on or off remotely. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 32 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451cc"),
+    "deviceId" : "acg:home:light29",
+    "actions" : [ 
+        "lightOn"
+    ],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Light bulb",
+    "properties" : [ 
+        "lightOn"
+    ],
+    "summary" : "This is a light bulb located in room_10. It reports whether the light is currently on or off, and it can turn the light on. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 33 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451cd"),
+    "deviceId" : "acg:home:light4",
+    "actions" : [ 
+        "lightOn"
+    ],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Light bulb",
+    "properties" : [ 
+        "lightOn"
+    ],
+    "summary" : "This is a light bulb located in the kitchen. It reports whether the light is currently on or off, and it can turn the light on. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 34 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451ce"),
+    "deviceId" : "acg:home:light5",
+    "actions" : [ 
+        "lightOn"
+    ],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Light bulb",
+    "properties" : [ 
+        "lightOn"
+    ],
+    "summary" : "This is a light bulb located in the garage. It reports whether the light is currently on or off, and it can turn the light on or off. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 35 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451cf"),
+    "deviceId" : "acg:home:light6",
+    "actions" : [ 
+        "lightOn"
+    ],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Light bulb",
+    "properties" : [ 
+        "lightOn"
+    ],
+    "summary" : "This is a light bulb located in the bathroom. It reports whether the light is currently on or off, and it can be turned on or off. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 36 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451d0"),
+    "deviceId" : "acg:home:movement1",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Movement sensor in the children bedroom",
+    "properties" : [ 
+        "movement", 
+        "lastChange"
+    ],
+    "summary" : "This is a movement sensor located in the children's bedroom. It reports whether movement is currently detected and provides the time of the last detected movement. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 37 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451d1"),
+    "deviceId" : "acg:home:movement10",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Movement sensor in the room 10",
+    "properties" : [ 
+        "movement", 
+        "lastChange"
+    ],
+    "summary" : "This is a movement sensor located in the living room. It reports whether movement is currently detected and provides the last time movement was detected. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 38 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451d2"),
+    "deviceId" : "acg:home:movement11",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Movement sensor in the room 3",
+    "properties" : [ 
+        "movement", 
+        "lastChange"
+    ],
+    "summary" : "This is a movement sensor located in a water room. It reports whether movement is currently detected and provides the last time movement was detected. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 39 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451d3"),
+    "deviceId" : "acg:home:movement12",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Movement sensor in the room 12",
+    "properties" : [ 
+        "movement", 
+        "lastChange"
+    ],
+    "summary" : "This is a movement sensor located in the entrance. It reports whether movement is currently detected and provides the last time movement was detected. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 40 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451d4"),
+    "deviceId" : "acg:home:movement13",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Movement sensor in the bedroom",
+    "properties" : [ 
+        "movement", 
+        "lastChange"
+    ],
+    "summary" : "This is a movement sensor located in the bedroom. It reports whether movement is currently detected and provides the timestamp of the last detected movement. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 41 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451d5"),
+    "deviceId" : "acg:home:movement14",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Movement sensor in the shower room",
+    "properties" : [ 
+        "movement", 
+        "lastChange"
+    ],
+    "summary" : "This is a movement sensor located in the shower room. It reports whether movement is currently detected and provides the timestamp of the last detected movement. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 42 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451d6"),
+    "deviceId" : "acg:home:movement2",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Movement sensor in the parent bedroom",
+    "properties" : [ 
+        "movement", 
+        "lastChange"
+    ],
+    "summary" : "This is a movement sensor located in the parent bedroom. It reports whether movement is currently detected in the room and provides the last time movement was detected. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 43 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451d7"),
+    "deviceId" : "acg:home:movement20",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Movement sensor in the room 3",
+    "properties" : [ 
+        "movement", 
+        "lastChange"
+    ],
+    "summary" : "This is a movement sensor located in a room. It reports whether movement is currently detected and provides the last time movement was detected. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 44 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451d8"),
+    "deviceId" : "acg:home:movement21",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Movement sensor in the room 2",
+    "properties" : [ 
+        "movement", 
+        "lastChange"
+    ],
+    "summary" : "This is a movement sensor located in room 2. It reports whether movement is currently detected and provides the last time movement was detected. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 45 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451d9"),
+    "deviceId" : "acg:home:movement22",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Movement sensor in the room 3",
+    "properties" : [ 
+        "movement", 
+        "lastChange"
+    ],
+    "summary" : "This is a movement sensor located in room 3. It reports whether movement is currently detected and provides the last time movement was detected. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 46 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451da"),
+    "deviceId" : "acg:home:movement23",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Movement sensor in the room 4",
+    "properties" : [ 
+        "movement", 
+        "lastChange"
+    ],
+    "summary" : "This is a movement sensor located in room 4. It reports whether movement is currently detected and provides the last time movement was detected. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 47 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451db"),
+    "deviceId" : "acg:home:movement24",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Movement sensor in the room 5",
+    "properties" : [ 
+        "movement", 
+        "lastChange"
+    ],
+    "summary" : "This is a movement sensor located in room 5. It detects whether movement is currently occurring in the room and reports the last time movement was detected. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 48 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451dc"),
+    "deviceId" : "acg:home:movement25",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Movement sensor in the room 6",
+    "properties" : [ 
+        "movement", 
+        "lastChange"
+    ],
+    "summary" : "This is a movement sensor located in room 6. It reports whether movement is currently detected and provides the timestamp of the last time movement was detected. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 49 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451dd"),
+    "deviceId" : "acg:home:movement26",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Movement sensor in the room 3",
+    "properties" : [ 
+        "movement", 
+        "lastChange"
+    ],
+    "summary" : "This is a movement sensor located in room 7. It detects whether movement is currently present in the room and reports the last time movement was detected. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 50 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451de"),
+    "deviceId" : "acg:home:movement27",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Movement sensor in the room 8",
+    "properties" : [ 
+        "movement", 
+        "lastChange"
+    ],
+    "summary" : "This is a movement sensor located in room 8. It reports whether movement is currently detected and provides the timestamp of the last detected movement. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 51 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451df"),
+    "deviceId" : "acg:home:movement28",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Movement sensor in the room 9",
+    "properties" : [ 
+        "movement", 
+        "lastChange"
+    ],
+    "summary" : "This is a movement sensor located in room 9. It reports whether movement is currently detected and provides the last time movement was detected. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 52 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451e0"),
+    "deviceId" : "acg:home:movement29",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Movement sensor in the room 10",
+    "properties" : [ 
+        "movement", 
+        "lastChange"
+    ],
+    "summary" : "This is a movement sensor located in room 10. It detects whether movement is currently present and reports the last time movement was detected. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 53 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451e1"),
+    "deviceId" : "acg:home:movement3",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Movement sensor in the room 3",
+    "properties" : [ 
+        "movement", 
+        "lastChange"
+    ],
+    "summary" : "This is a movement sensor located in the dining room. It reports whether movement is currently detected and provides the time of the last detected movement. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 54 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451e2"),
+    "deviceId" : "acg:home:movement4",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Movement sensor in the kitchen",
+    "properties" : [ 
+        "movement", 
+        "lastChange"
+    ],
+    "summary" : "This is a movement sensor located in the kitchen. It detects whether movement is present in the room and reports the last time movement was detected. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 55 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451e3"),
+    "deviceId" : "acg:home:movement5",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Movement sensor in the room 3",
+    "properties" : [ 
+        "movement", 
+        "lastChange"
+    ],
+    "summary" : "This is a movement sensor located in the garage. It reports whether movement is currently detected and provides the last time movement was detected. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 56 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451e4"),
+    "deviceId" : "acg:home:movement6",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Movement sensor in the bathroom",
+    "properties" : [ 
+        "movement", 
+        "lastChange"
+    ],
+    "summary" : "This is a movement sensor located in the bathroom. It detects whether movement is currently occurring in the room and reports the last time movement was detected. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 57 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451e5"),
+    "deviceId" : "acg:home:questioningservice1",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Questioning service",
+    "properties" : [ 
+        "smartphone"
+    ],
+    "summary" : "This is a smartphone-based questioning service located in the dining room. It provides information obtained by asking the smartphone, readable as a text property. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 58 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451e6"),
+    "deviceId" : "acg:home:questioningservice2",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Questioning service",
+    "properties" : [ 
+        "smartphone"
+    ],
+    "summary" : "This is a smartphone questioning service located in the living room. It provides information obtained by querying a smartphone. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 59 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451e7"),
+    "deviceId" : "acg:home:questioningservice3",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Questioning service",
+    "properties" : [ 
+        "smartphone"
+    ],
+    "summary" : "This is a smartphone questioning service located in the bedroom. It provides information by allowing the smartphone to be queried, and it does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 60 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451e8"),
+    "deviceId" : "acg:home:tempin1",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Temperature service",
+    "properties" : [ 
+        "tempin"
+    ],
+    "summary" : "This is a temperature service located in the children's bedroom. It reports the current temperature of the room. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 61 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451e9"),
+    "deviceId" : "acg:home:tempin10",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Temperature service",
+    "properties" : [ 
+        "tempin"
+    ],
+    "summary" : "This is a temperature service located in the living room. It reports the current temperature of the room. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 62 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451ea"),
+    "deviceId" : "acg:home:tempin11",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Temperature service",
+    "properties" : [ 
+        "tempin"
+    ],
+    "summary" : "This is a temperature service located in the water room. It reports the current ambient temperature of the room. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 63 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451eb"),
+    "deviceId" : "acg:home:tempin12",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Temperature service",
+    "properties" : [ 
+        "tempin"
+    ],
+    "summary" : "This is a temperature sensor located in the entrance. It reports the current temperature of the room. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 64 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451ec"),
+    "deviceId" : "acg:home:tempin13",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Temperature service",
+    "properties" : [ 
+        "tempin"
+    ],
+    "summary" : "This is a temperature sensor located in the bedroom. It reports the current room temperature and does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 65 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451ed"),
+    "deviceId" : "acg:home:tempin14",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Temperature service",
+    "properties" : [ 
+        "tempin"
+    ],
+    "summary" : "This is a temperature service located in the shower room. It reports the current room temperature and does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 66 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451ee"),
+    "deviceId" : "acg:home:tempin2",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Temperature service",
+    "properties" : [ 
+        "tempin"
+    ],
+    "summary" : "This is a temperature sensor located in the parent bedroom. It reports the current temperature of the room. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 67 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451ef"),
+    "deviceId" : "acg:home:tempin20",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Temperature service",
+    "properties" : [ 
+        "tempin"
+    ],
+    "summary" : "This is a temperature service located in room_1. It reports the current temperature of the room. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 68 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451f0"),
+    "deviceId" : "acg:home:tempin21",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Temperature service",
+    "properties" : [ 
+        "tempin"
+    ],
+    "summary" : "This is a temperature service located in room_2. It reports the current ambient temperature of the room. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 69 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451f1"),
+    "deviceId" : "acg:home:tempin22",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Temperature service",
+    "properties" : [ 
+        "tempin"
+    ],
+    "summary" : "This is a temperature sensing device located in room_3. It reports the current ambient temperature of the room. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 70 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451f2"),
+    "deviceId" : "acg:home:tempin23",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Temperature service",
+    "properties" : [ 
+        "tempin"
+    ],
+    "summary" : "This is a temperature service located in room_4. It reports the current temperature of the room. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 71 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451f3"),
+    "deviceId" : "acg:home:tempin24",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Temperature service",
+    "properties" : [ 
+        "tempin"
+    ],
+    "summary" : "This is a temperature service located in room_5. It reports the current temperature of the room. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 72 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451f4"),
+    "deviceId" : "acg:home:tempin25",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Temperature service",
+    "properties" : [ 
+        "tempin"
+    ],
+    "summary" : "This is a temperature service located in room_6. It reports the current temperature of the room. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 73 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451f5"),
+    "deviceId" : "acg:home:tempin26",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Temperature service",
+    "properties" : [ 
+        "tempin"
+    ],
+    "summary" : "This is a temperature service located in room_7. It reports the current ambient temperature of the room. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 74 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451f6"),
+    "deviceId" : "acg:home:tempin27",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Temperature service",
+    "properties" : [ 
+        "tempin"
+    ],
+    "summary" : "This is a temperature service located in room_8. It reports the current temperature of the room. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 75 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451f7"),
+    "deviceId" : "acg:home:tempin28",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Temperature service",
+    "properties" : [ 
+        "tempin"
+    ],
+    "summary" : "This is a temperature service located in room_9. It reports the current temperature of the room. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 76 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451f8"),
+    "deviceId" : "acg:home:tempin29",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Temperature service",
+    "properties" : [ 
+        "tempin"
+    ],
+    "summary" : "This is a temperature sensor located in room_10. It reports the current temperature of the room. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 77 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451f9"),
+    "deviceId" : "acg:home:tempin3",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Temperature service",
+    "properties" : [ 
+        "tempin"
+    ],
+    "summary" : "This is a temperature service located in the dining room. It reports the current room temperature. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 78 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451fa"),
+    "deviceId" : "acg:home:tempin4",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Temperature service",
+    "properties" : [ 
+        "tempin"
+    ],
+    "summary" : "This is a temperature service located in the kitchen. It reports the current ambient temperature of the room. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 79 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451fb"),
+    "deviceId" : "acg:home:tempin5",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Temperature service",
+    "properties" : [ 
+        "tempin"
+    ],
+    "summary" : "This is a temperature sensor located in the garage. It reports the current temperature of the room. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 80 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451fc"),
+    "deviceId" : "acg:home:tempin6",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Temperature service",
+    "properties" : [ 
+        "tempin"
+    ],
+    "summary" : "This is a temperature service located in the bathroom. It reports the current room temperature. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 81 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451fd"),
+    "deviceId" : "acg:home:washingmachine1",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Washing machine",
+    "properties" : [ 
+        "washing"
+    ],
+    "summary" : "This is a washing machine located in the bathroom. It reports whether it is currently on or off. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}
+
+/* 82 */
+{
+    "_id" : ObjectId("6a8db4e7e39fe9bbc9f451fe"),
+    "deviceId" : "acg:home:washingmachine3",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-25T15:29:43.320Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-25T15:29:43.319Z"),
+    "name" : "Washing machine",
+    "properties" : [ 
+        "washing"
+    ],
+    "summary" : "This is a washing machine located in the shower room. It reports whether it is currently on or off. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-25T15:29:43.320Z")
+}

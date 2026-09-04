@@ -1,0 +1,4 @@
+Config to enable search by content in the database:
+
+
+db.thing_descriptions.createIndex({ "$**": "text" },{ name: "TextIndex" })

@@ -1,0 +1,209 @@
+
+1º SENTENCE QWEN
+
+398 s - movement1, movement12, movement20, movement23, movement25 0.95 TODOS
+
+378s - movement1, movement10, movement12, movement13, movement14
+
+557 s - movement1, movement10, movement12, movement13, movement14, movement2, movement21, movement24, movement28, movement29
+
+358 s - movement1, movement12, movement4, movement15
+
+
+2º SENTENCE QwEN
+
+251 s - washingmachine1, washingmachine3  0.85 TODOS
+
+209ms - washingmachine1  1.0
+
+238 s - washingmachine1, washingmachine3  0.85 TODOS
+
+236 s - washingmachine1, washingmachine3  1.0 TODOS
+
+
+3ª SENTENCE QwEN
+
+265 s - light1, light2 0.85 TODOS
+
+304 s - light1, light14, light25 0.95 TODOS
+
+
+
+4ª SENTENCE QWEN
+
+248 s - light13 0.95
+
+276 s - light13, light20 0.95
+
+
+
+5ª SENTENCE QWEN
+
+232 s - doorlock3 0.95
+
+226 s - doorlock3 0.95
+
+
+6ª SENTENCE QWEN
+
+234 s - heatingcontrol1 0.85
+
+239 s - heatingcontrol1 0.85
+
+
+7ª SENTENCE QWEN
+
+274 s - heatingcontrol1, light2 0.85
+
+284 s - heatingcontrol1, heatingcontrol3, heatingcontrol4.
+
+
+8ª SENTENCE QWEN
+
+241 s - light14, light25 0.95
+
+247 s - light14 0.95
+
+
+
+9ª SENTENCE QWEN
+
+314 s - battery3, movement4, light4 0.85  TODO DE COCINA PIENSA QUE BATTERY TIENE SENSOR DE TEMPERATURA
+
+224 s - battery3 0.85
+
+
+10ª SENTENCE QWEN
+
+245 s - light2 0.95
+
+287 s - light2, movement2 0.95
+
+
+
+TRANSFORMERS
+
+36,6 ms avg. 10 executions
+
+
+----Did you sense any movement?----
+["['/agent6/movement6/movement'] (0.6311835)", "['/agent6/tempin6'] (0.27945817)", "['/agent6/movement6/lastChange'] (0.016129706)", "['/agent6/lightcontrol6/lightOn'] (0.014366942)"]
+
+
+----Stop the washing machine----
+["['/agent1/tempin1'] (0.87052935)", "['/agent14/tempin14'] (0.05031515)", "['/agent14/washingmachine3/washing'] (0.026849886)", "['/agent14/movement14/movement'] (0.018659968)"]
+
+
+----lightcontroler in bedroomchildren----
+["['/agent1/tempin1'] (0.8293814)", "['/agent1/movement1/movement'] (0.10686812)", "['/agent1/lightcontrol1/lightOn'] (0.03257789)", "['/agent1/movement1/lastChange'] (0.01787554)"]
+
+
+----Could you please turn on the bedroom lights in my parents’ room?----
+["['/agent29/tempin29'] (0.80220544)", "['/agent22/tempin22'] (0.09978311)", "['/agent29/movement29/movement'] (0.085683055)", "['/agent22/movement22/movement'] (0.008532692)"]
+
+
+----I'm leaving the house. Make sure the entrance door is closed----
+["['/agent12/battery5/charge'] (0.3451125)", "['/agent12/battery6/charge'] (0.21427809)", "['/agent12/battery5/charging'] (0.19974227)", "['/agent12/battery6/charging'] (0.08933666)"]
+
+
+----I'm cold in the dining room; turn on the heat----
+["['/agent29/tempin29'] (0.9172902)", "['/agent21/doorlock5/open'] (0.01812346)", "['/agent22/tempin22'] (0.0153653305)", "['/agent21/tempin21'] (0.013800085)"]
+
+
+----Tengo frío en el comedor, enciende la calefacción----
+["['/agent13/movement13/movement'] (0.84770286)", "['/agent25/movement25/movement'] (0.14003107)", "['/agent29/movement29/movement'] (0.0069982493)", "['/agent25/tempin25'] (0.0020921135)"]
+
+
+----I need more light to have a shower----
+["['/agent1/lightcontrol1/lightOn'] (0.21822819)", "['/agent6/lightcontrol6/lightOn'] (0.08313555)", "['/agent1/tempin1'] (0.06133698)", "['/agent6/tempin6'] (0.05828395)"]
+
+
+----I want to know if anyone is in the kitchen and how warm it is there----
+["['/agent4/battery3/charging'] (0.6738855)", "['/agent4/battery3/charge'] (0.24543388)", "['/agent28/tempin28'] (0.07628222)", "['/agent4/tempin4'] (0.0038712162)"]
+
+
+----Before going to bed, turn off the light in the parent's bedroom and check whether there has been any movement there----
+["['/agent25/tempin25'] (0.7937811)", "['/agent28/tempin28'] (0.11256353)", "['/agent13/tempin13'] (0.077869415)", "['/agent6/tempin6'] (0.0060983286)"]
+
+
+
+CLAUDE
+
+
+
+
+
+1º SENTENCE CLAUDE
+
+47 s - 9cent - movement1, movement2, movement3, movement4, movement5, movement6, movement10, movement11, movement12, movement13, movement14 movement20, movement21, movement22, movement23, movement24, movement25, movement26, movement27, movement28, movement29 0.65 TODOS
+
+73 s - 9cent - movement1, movement2, movement3, movement4, movement5, movement6, movement10, movement11, movement12, movement13, movement14 movement20, movement21, movement22, movement23, movement24, movement25, movement26, movement27, movement28, movement29 0.65 TODOS
+
+50 s - 10cent - movement1, movement2, movement3, movement4, movement5, movement6, movement10, movement11, movement12, movement13, movement14 movement20, movement21, movement22, movement23, movement24, movement25, movement26, movement27, movement28, movement29 0.62 HASTA 14 INCLUIDO, LUEGO 0,6
+
+
+
+2ª SENTENCE CLAUDE
+
+22 s - 5cent - washingMachine1 0.62, washingMachine3 0.6
+
+
+21 s - 5cent - washingMachine1, washingMachine2 TODO 0.55
+
+
+3ª SENTENCE CLAUDE
+
+18 s - 4cent - light1 0.95
+
+15 s - 4cent - light1 0.93
+
+
+4ª SENTENCE CLAUDE
+
+
+23 s - 5cent - light2 0.93, light13 0.4
+
+18 s - 5cent - light2 0.95, light13 0.35
+
+
+5ª SENTENCE CLAUDE
+
+23 s - 5cent - doorlock3 0.9
+
+33 s - 6cent - doorlock3 0.78
+
+
+6ª SENTENCE CLAUDE
+
+15 s - 5cent - heatingcontrol1 0.95
+
+14 s - 4cent - heatingcontrol1 0.95
+
+
+
+7ª SENTENCE CLAUDE
+
+15 s - 4cent - heatingcontrol1 0.95
+
+13 s - 4cent - heatingcontrol1 0.95
+
+
+8ª SENTENCE CLAUDE
+
+26 s - 6cent - light14 0.88, light6 0.86, light11 0.45
+
+31 s - 6cent - light6 0.92, light14 0.9
+
+
+9ª SENTENCE CLAUDE
+
+27 s - 5cent - movement4, tempin4 TODO 0.95 
+
+36 s - 6cent - movement4, tempin4 TODO 0.92
+
+
+10ª SENTENCE CLAUDE
+
+30 s - 8cent - light2, movement2 TODO 0.9
+
+40 s - 7cent - light2 0.92, movement2 0.88, light3 0.35, movement13 0.32

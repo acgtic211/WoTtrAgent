@@ -1,0 +1,57 @@
+{
+    "candidates": [
+        {
+            "td_id": "acg:home:doorlock3",
+            "selector_score": 0.9,
+            "retrieval_reason": "Only catalog entry matching both entrance location and door-type semantics, with a reported open/closed property and stated ability to open/close the lock; full TD needed to confirm the close action affordance and current door state.",
+            "td": {
+                "id": "acg:home:doorlock3",
+                "@context": "https://www.w1.org/2019/wot/td/v1",
+                "action": {
+                    "open": {
+                        "title": "Modify the door lock",
+                        "description": "Open or close the doorlock",
+                        "type": "boolean",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent12/doorlock3/open",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "base": "http://localhost/agent12/doorlock3",
+                "description": "Door lock service in entrance",
+                "events": {},
+                "links": [],
+                "properties": {
+                    "open": {
+                        "title": "Door lock status",
+                        "description": "If the door is opened or not",
+                        "type": "boolean",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent12/doorlock3/open",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "security": "nosec_sc",
+                "securityDefinitions": {
+                    "nosec_sc": {
+                        "scheme": "nosec"
+                    }
+                },
+                "title": "Door lock service"
+            }
+        }
+    ],
+    "missing_td_ids": []
+}

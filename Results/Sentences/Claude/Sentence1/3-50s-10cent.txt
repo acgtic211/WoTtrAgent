@@ -1,0 +1,1076 @@
+{
+    "candidates": [
+        {
+            "td_id": "acg:home:movement1",
+            "selector_score": 0.62,
+            "retrieval_reason": "Motion sensor exposing a movement property; location not specified in query so any sensor is plausible.",
+            "td": {
+                "id": "acg:home:movement1",
+                "@context": "https://www.w3.org/2019/wot/td/v1",
+                "actions": {},
+                "base": "http://localhost/agent1/movement1",
+                "description": "Movement sensor located in children bedroom",
+                "events": {},
+                "links": [],
+                "properties": {
+                    "movement": {
+                        "title": "Movement detected by the sensor",
+                        "description": "Value of the movement sensor that changes if it detects movement in the room",
+                        "type": "boolean",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent1/movement1/movement",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    },
+                    "lastChange": {
+                        "title": "Last time movement was detected",
+                        "description": "It indicates the last time the movement sensor detected movement",
+                        "type": "number",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent1/movement1/lastChange",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "security": "nosec_sc",
+                "securityDefinitions": {
+                    "nosec_sc": {
+                        "scheme": "nosec"
+                    }
+                },
+                "title": "Movement sensor in the children bedroom"
+            }
+        },
+        {
+            "td_id": "acg:home:movement2",
+            "selector_score": 0.62,
+            "retrieval_reason": "Motion sensor exposing a movement property; location not specified in query so any sensor is plausible.",
+            "td": {
+                "id": "acg:home:movement2",
+                "@context": "https://www.w3.org/2019/wot/td/v1",
+                "actions": {},
+                "base": "http://localhost/agent2/movement2",
+                "description": "Movement sensor located in parent bedroom",
+                "events": {},
+                "links": [],
+                "properties": {
+                    "movement": {
+                        "title": "Movement detected by the sensor",
+                        "description": "Value of the movement sensor that changes if it detects movement in the room",
+                        "type": "boolean",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent2/movement2/movement",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    },
+                    "lastChange": {
+                        "title": "Last time movement was detected",
+                        "description": "It indicates the last time the movement sensor detected movement",
+                        "type": "number",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent2/movement2/lastChange",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "security": "nosec_sc",
+                "securityDefinitions": {
+                    "nosec_sc": {
+                        "scheme": "nosec"
+                    }
+                },
+                "title": "Movement sensor in the parent bedroom"
+            }
+        },
+        {
+            "td_id": "acg:home:movement3",
+            "selector_score": 0.62,
+            "retrieval_reason": "Motion sensor exposing a movement property; location not specified in query so any sensor is plausible.",
+            "td": {
+                "id": "acg:home:movement3",
+                "@context": "https://www.w3.org/2019/wot/td/v1",
+                "actions": {},
+                "base": "http://localhost/agent3/movement3",
+                "description": "Movement sensor located in dinning room",
+                "events": {},
+                "links": [],
+                "properties": {
+                    "movement": {
+                        "title": "Movement detected by the sensor",
+                        "description": "Value of the movement sensor that changes if it detects movement in the room",
+                        "type": "boolean",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agen3/movement3/movement",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    },
+                    "lastChange": {
+                        "title": "Last time movement was detected",
+                        "description": "It indicates the last time the movement sensor detected movement",
+                        "type": "number",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent3/movement3/lastChange",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "security": "nosec_sc",
+                "securityDefinitions": {
+                    "nosec_sc": {
+                        "scheme": "nosec"
+                    }
+                },
+                "title": "Movement sensor in the room 3"
+            }
+        },
+        {
+            "td_id": "acg:home:movement4",
+            "selector_score": 0.62,
+            "retrieval_reason": "Motion sensor exposing a movement property; location not specified in query so any sensor is plausible.",
+            "td": {
+                "id": "acg:home:movement4",
+                "@context": "https://www.w3.org/2019/wot/td/v1",
+                "actions": {},
+                "base": "http://localhost/agent4/movement4",
+                "description": "Movement sensor located in kitchen",
+                "events": {},
+                "links": [],
+                "properties": {
+                    "movement": {
+                        "title": "Movement detected by the sensor",
+                        "description": "Value of the movement sensor that changes if it detects movement in the room",
+                        "type": "boolean",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent4/movement4/movement",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    },
+                    "lastChange": {
+                        "title": "Last time movement was detected",
+                        "description": "It indicates the last time the movement sensor detected movement",
+                        "type": "number",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent4/movement4/lastChange",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "security": "nosec_sc",
+                "securityDefinitions": {
+                    "nosec_sc": {
+                        "scheme": "nosec"
+                    }
+                },
+                "title": "Movement sensor in the kitchen"
+            }
+        },
+        {
+            "td_id": "acg:home:movement5",
+            "selector_score": 0.62,
+            "retrieval_reason": "Motion sensor exposing a movement property; location not specified in query so any sensor is plausible.",
+            "td": {
+                "id": "acg:home:movement5",
+                "@context": "https://www.w3.org/2019/wot/td/v1",
+                "actions": {},
+                "base": "http://localhost/agent5/movement5",
+                "description": "Movement sensor located in garage",
+                "events": {},
+                "links": [],
+                "properties": {
+                    "movement": {
+                        "title": "Movement detected by the sensor",
+                        "description": "Value of the movement sensor that changes if it detects movement in the room",
+                        "type": "boolean",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agen3/movement5/movement",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    },
+                    "lastChange": {
+                        "title": "Last time movement was detected",
+                        "description": "It indicates the last time the movement sensor detected movement",
+                        "type": "number",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent5/movement5/lastChange",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "security": "nosec_sc",
+                "securityDefinitions": {
+                    "nosec_sc": {
+                        "scheme": "nosec"
+                    }
+                },
+                "title": "Movement sensor in the room 3"
+            }
+        },
+        {
+            "td_id": "acg:home:movement6",
+            "selector_score": 0.62,
+            "retrieval_reason": "Motion sensor exposing a movement property; location not specified in query so any sensor is plausible.",
+            "td": {
+                "id": "acg:home:movement6",
+                "@context": "https://www.w3.org/2019/wot/td/v1",
+                "actions": {},
+                "base": "http://localhost/agent6/movement6",
+                "description": "Movement sensor located in bathroom",
+                "events": {},
+                "links": [],
+                "properties": {
+                    "movement": {
+                        "title": "Movement detected by the sensor",
+                        "description": "Value of the movement sensor that changes if it detects movement in the room",
+                        "type": "boolean",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent6/movement6/movement",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    },
+                    "lastChange": {
+                        "title": "Last time movement was detected",
+                        "description": "It indicates the last time the movement sensor detected movement",
+                        "type": "number",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent6/movement6/lastChange",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "security": "nosec_sc",
+                "securityDefinitions": {
+                    "nosec_sc": {
+                        "scheme": "nosec"
+                    }
+                },
+                "title": "Movement sensor in the bathroom"
+            }
+        },
+        {
+            "td_id": "acg:home:movement10",
+            "selector_score": 0.62,
+            "retrieval_reason": "Motion sensor exposing a movement property; location not specified in query so any sensor is plausible.",
+            "td": {
+                "id": "acg:home:movement10",
+                "@context": "https://www.w3.org/2019/wot/td/v1",
+                "actions": {},
+                "base": "http://localhost/agent10/movement10",
+                "description": "Movement sensor located in livingroom",
+                "events": {},
+                "links": [],
+                "properties": {
+                    "movement": {
+                        "title": "Movement detected by the sensor",
+                        "description": "Value of the movement sensor that changes if it detects movement in the room",
+                        "type": "boolean",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agen10/movement10/movement",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    },
+                    "lastChange": {
+                        "title": "Last time movement was detected",
+                        "description": "It indicates the last time the movement sensor detected movement",
+                        "type": "number",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent10/movement10/lastChange",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "security": "nosec_sc",
+                "securityDefinitions": {
+                    "nosec_sc": {
+                        "scheme": "nosec"
+                    }
+                },
+                "title": "Movement sensor in the room 10"
+            }
+        },
+        {
+            "td_id": "acg:home:movement11",
+            "selector_score": 0.62,
+            "retrieval_reason": "Motion sensor exposing a movement property; location not specified in query so any sensor is plausible.",
+            "td": {
+                "id": "acg:home:movement11",
+                "@context": "https://www.w3.org/2019/wot/td/v1",
+                "actions": {},
+                "base": "http://localhost/agent11/movement11",
+                "description": "Movement sensor located in watter room",
+                "events": {},
+                "links": [],
+                "properties": {
+                    "movement": {
+                        "title": "Movement detected by the sensor",
+                        "description": "Value of the movement sensor that changes if it detects movement in the room",
+                        "type": "boolean",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agen3/movement11/movement",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    },
+                    "lastChange": {
+                        "title": "Last time movement was detected",
+                        "description": "It indicates the last time the movement sensor detected movement",
+                        "type": "number",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent11/movement11/lastChange",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "security": "nosec_sc",
+                "securityDefinitions": {
+                    "nosec_sc": {
+                        "scheme": "nosec"
+                    }
+                },
+                "title": "Movement sensor in the room 3"
+            }
+        },
+        {
+            "td_id": "acg:home:movement12",
+            "selector_score": 0.62,
+            "retrieval_reason": "Motion sensor exposing a movement property; location not specified in query so any sensor is plausible.",
+            "td": {
+                "id": "acg:home:movement12",
+                "@context": "https://www.w3.org/2019/wot/td/v1",
+                "actions": {},
+                "base": "http://localhost/agent12/movement12",
+                "description": "Movement sensor located in entrance",
+                "events": {},
+                "links": [],
+                "properties": {
+                    "movement": {
+                        "title": "Movement detected by the sensor",
+                        "description": "Value of the movement sensor that changes if it detects movement in the room",
+                        "type": "boolean",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agen12/movement12/movement",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    },
+                    "lastChange": {
+                        "title": "Last time movement was detected",
+                        "description": "It indicates the last time the movement sensor detected movement",
+                        "type": "number",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent12/movement12/lastChange",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "security": "nosec_sc",
+                "securityDefinitions": {
+                    "nosec_sc": {
+                        "scheme": "nosec"
+                    }
+                },
+                "title": "Movement sensor in the room 12"
+            }
+        },
+        {
+            "td_id": "acg:home:movement13",
+            "selector_score": 0.62,
+            "retrieval_reason": "Motion sensor exposing a movement property; location not specified in query so any sensor is plausible.",
+            "td": {
+                "id": "acg:home:movement13",
+                "@context": "https://www.w3.org/2019/wot/td/v1",
+                "actions": {},
+                "base": "http://localhost/agent13/movement13",
+                "description": "Movement sensor located in the bedroom",
+                "events": {},
+                "links": [],
+                "properties": {
+                    "movement": {
+                        "title": "Movement detected by the sensor",
+                        "description": "Value of the movement sensor that changes if it detects movement in the room",
+                        "type": "boolean",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent13/movement13/movement",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    },
+                    "lastChange": {
+                        "title": "Last time movement was detected",
+                        "description": "It indicates the last time the movement sensor detected movement",
+                        "type": "number",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent13/movement13/lastChange",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "security": "nosec_sc",
+                "securityDefinitions": {
+                    "nosec_sc": {
+                        "scheme": "nosec"
+                    }
+                },
+                "title": "Movement sensor in the bedroom"
+            }
+        },
+        {
+            "td_id": "acg:home:movement14",
+            "selector_score": 0.62,
+            "retrieval_reason": "Motion sensor exposing a movement property; location not specified in query so any sensor is plausible.",
+            "td": {
+                "id": "acg:home:movement14",
+                "@context": "https://www.w3.org/2019/wot/td/v1",
+                "actions": {},
+                "base": "http://localhost/agent14/movement14",
+                "description": "Movement sensor located in shower room",
+                "events": {},
+                "links": [],
+                "properties": {
+                    "movement": {
+                        "title": "Movement detected by the sensor",
+                        "description": "Value of the movement sensor that changes if it detects movement in the room",
+                        "type": "boolean",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent14/movement14/movement",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    },
+                    "lastChange": {
+                        "title": "Last time movement was detected",
+                        "description": "It indicates the last time the movement sensor detected movement",
+                        "type": "number",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent14/movement14/lastChange",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "security": "nosec_sc",
+                "securityDefinitions": {
+                    "nosec_sc": {
+                        "scheme": "nosec"
+                    }
+                },
+                "title": "Movement sensor in the shower room"
+            }
+        },
+        {
+            "td_id": "acg:home:movement20",
+            "selector_score": 0.6,
+            "retrieval_reason": "Motion sensor exposing a movement property; location not specified in query so any sensor is plausible.",
+            "td": {
+                "id": "acg:home:movement20",
+                "@context": "https://www.w3.org/2019/wot/td/v1",
+                "actions": {},
+                "base": "http://localhost/agent20/movement20",
+                "description": "Movement sensor located in room_1",
+                "events": {},
+                "links": [],
+                "properties": {
+                    "movement": {
+                        "title": "Movement detected by the sensor",
+                        "description": "Value of the movement sensor that changes if it detects movement in the room",
+                        "type": "boolean",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agen3/movement20/movement",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    },
+                    "lastChange": {
+                        "title": "Last time movement was detected",
+                        "description": "It indicates the last time the movement sensor detected movement",
+                        "type": "number",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent20/movement20/lastChange",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "security": "nosec_sc",
+                "securityDefinitions": {
+                    "nosec_sc": {
+                        "scheme": "nosec"
+                    }
+                },
+                "title": "Movement sensor in the room 3"
+            }
+        },
+        {
+            "td_id": "acg:home:movement21",
+            "selector_score": 0.6,
+            "retrieval_reason": "Motion sensor exposing a movement property; location not specified in query so any sensor is plausible.",
+            "td": {
+                "id": "acg:home:movement21",
+                "@context": "https://www.w3.org/2019/wot/td/v1",
+                "actions": {},
+                "base": "http://localhost/agent21/movement21",
+                "description": "Movement sensor located in room_2",
+                "events": {},
+                "links": [],
+                "properties": {
+                    "movement": {
+                        "title": "Movement detected by the sensor",
+                        "description": "Value of the movement sensor that changes if it detects movement in the room",
+                        "type": "boolean",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent21/movement21/movement",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    },
+                    "lastChange": {
+                        "title": "Last time movement was detected",
+                        "description": "It indicates the last time the movement sensor detected movement",
+                        "type": "number",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent21/movement21/lastChange",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "security": "nosec_sc",
+                "securityDefinitions": {
+                    "nosec_sc": {
+                        "scheme": "nosec"
+                    }
+                },
+                "title": "Movement sensor in the room 2"
+            }
+        },
+        {
+            "td_id": "acg:home:movement22",
+            "selector_score": 0.6,
+            "retrieval_reason": "Motion sensor exposing a movement property; location not specified in query so any sensor is plausible.",
+            "td": {
+                "id": "acg:home:movement22",
+                "@context": "https://www.w3.org/2019/wot/td/v1",
+                "actions": {},
+                "base": "http://localhost/agent22/movement22",
+                "description": "Movement sensor located in room_3",
+                "events": {},
+                "links": [],
+                "properties": {
+                    "movement": {
+                        "title": "Movement detected by the sensor",
+                        "description": "Value of the movement sensor that changes if it detects movement in the room",
+                        "type": "boolean",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent22/movement22/movement",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    },
+                    "lastChange": {
+                        "title": "Last time movement was detected",
+                        "description": "It indicates the last time the movement sensor detected movement",
+                        "type": "number",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent22/movement22/lastChange",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "security": "nosec_sc",
+                "securityDefinitions": {
+                    "nosec_sc": {
+                        "scheme": "nosec"
+                    }
+                },
+                "title": "Movement sensor in the room 3"
+            }
+        },
+        {
+            "td_id": "acg:home:movement23",
+            "selector_score": 0.6,
+            "retrieval_reason": "Motion sensor exposing a movement property; location not specified in query so any sensor is plausible.",
+            "td": {
+                "id": "acg:home:movement23",
+                "@context": "https://www.w3.org/2019/wot/td/v1",
+                "actions": {},
+                "base": "http://localhost/agent23/movement23",
+                "description": "Movement sensor located in room_4",
+                "events": {},
+                "links": [],
+                "properties": {
+                    "movement": {
+                        "title": "Movement detected by the sensor",
+                        "description": "Value of the movement sensor that changes if it detects movement in the room",
+                        "type": "boolean",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent23/movement23/movement",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    },
+                    "lastChange": {
+                        "title": "Last time movement was detected",
+                        "description": "It indicates the last time the movement sensor detected movement",
+                        "type": "number",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent23/movement23/lastChange",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "security": "nosec_sc",
+                "securityDefinitions": {
+                    "nosec_sc": {
+                        "scheme": "nosec"
+                    }
+                },
+                "title": "Movement sensor in the room 4"
+            }
+        },
+        {
+            "td_id": "acg:home:movement24",
+            "selector_score": 0.6,
+            "retrieval_reason": "Motion sensor exposing a movement property; location not specified in query so any sensor is plausible.",
+            "td": {
+                "id": "acg:home:movement24",
+                "@context": "https://www.w3.org/2019/wot/td/v1",
+                "actions": {},
+                "base": "http://localhost/agent24/movement24",
+                "description": "Movement sensor located in room_5",
+                "events": {},
+                "links": [],
+                "properties": {
+                    "movement": {
+                        "title": "Movement detected by the sensor",
+                        "description": "Value of the movement sensor that changes if it detects movement in the room",
+                        "type": "boolean",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent24/movement24/movement",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    },
+                    "lastChange": {
+                        "title": "Last time movement was detected",
+                        "description": "It indicates the last time the movement sensor detected movement",
+                        "type": "number",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent24/movement24/lastChange",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "security": "nosec_sc",
+                "securityDefinitions": {
+                    "nosec_sc": {
+                        "scheme": "nosec"
+                    }
+                },
+                "title": "Movement sensor in the room 5"
+            }
+        },
+        {
+            "td_id": "acg:home:movement25",
+            "selector_score": 0.6,
+            "retrieval_reason": "Motion sensor exposing a movement property; location not specified in query so any sensor is plausible.",
+            "td": {
+                "id": "acg:home:movement25",
+                "@context": "https://www.w3.org/2019/wot/td/v1",
+                "actions": {},
+                "base": "http://localhost/agent25/movement25",
+                "description": "Movement sensor located in room_6",
+                "events": {},
+                "links": [],
+                "properties": {
+                    "movement": {
+                        "title": "Movement detected by the sensor",
+                        "description": "Value of the movement sensor that changes if it detects movement in the room",
+                        "type": "boolean",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent25/movement25/movement",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    },
+                    "lastChange": {
+                        "title": "Last time movement was detected",
+                        "description": "It indicates the last time the movement sensor detected movement",
+                        "type": "number",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent25/movement25/lastChange",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "security": "nosec_sc",
+                "securityDefinitions": {
+                    "nosec_sc": {
+                        "scheme": "nosec"
+                    }
+                },
+                "title": "Movement sensor in the room 6"
+            }
+        },
+        {
+            "td_id": "acg:home:movement26",
+            "selector_score": 0.6,
+            "retrieval_reason": "Motion sensor exposing a movement property; location not specified in query so any sensor is plausible.",
+            "td": {
+                "id": "acg:home:movement26",
+                "@context": "https://www.w3.org/2019/wot/td/v1",
+                "actions": {},
+                "base": "http://localhost/agent26/movement26",
+                "description": "Movement sensor located in room_7",
+                "events": {},
+                "links": [],
+                "properties": {
+                    "movement": {
+                        "title": "Movement detected by the sensor",
+                        "description": "Value of the movement sensor that changes if it detects movement in the room",
+                        "type": "boolean",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agen3/movement26/movement",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    },
+                    "lastChange": {
+                        "title": "Last time movement was detected",
+                        "description": "It indicates the last time the movement sensor detected movement",
+                        "type": "number",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent26/movement26/lastChange",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "security": "nosec_sc",
+                "securityDefinitions": {
+                    "nosec_sc": {
+                        "scheme": "nosec"
+                    }
+                },
+                "title": "Movement sensor in the room 3"
+            }
+        },
+        {
+            "td_id": "acg:home:movement27",
+            "selector_score": 0.6,
+            "retrieval_reason": "Motion sensor exposing a movement property; location not specified in query so any sensor is plausible.",
+            "td": {
+                "id": "acg:home:movement27",
+                "@context": "https://www.w3.org/2019/wot/td/v1",
+                "actions": {},
+                "base": "http://localhost/agent27/movement27",
+                "description": "Movement sensor located in room_8",
+                "events": {},
+                "links": [],
+                "properties": {
+                    "movement": {
+                        "title": "Movement detected by the sensor",
+                        "description": "Value of the movement sensor that changes if it detects movement in the room",
+                        "type": "boolean",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent27/movement27/movement",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    },
+                    "lastChange": {
+                        "title": "Last time movement was detected",
+                        "description": "It indicates the last time the movement sensor detected movement",
+                        "type": "number",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent27/movement27/lastChange",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "security": "nosec_sc",
+                "securityDefinitions": {
+                    "nosec_sc": {
+                        "scheme": "nosec"
+                    }
+                },
+                "title": "Movement sensor in the room 8"
+            }
+        },
+        {
+            "td_id": "acg:home:movement28",
+            "selector_score": 0.6,
+            "retrieval_reason": "Motion sensor exposing a movement property; location not specified in query so any sensor is plausible.",
+            "td": {
+                "id": "acg:home:movement28",
+                "@context": "https://www.w3.org/2019/wot/td/v1",
+                "actions": {},
+                "base": "http://localhost/agent28/movement28",
+                "description": "Movement sensor located in room_9",
+                "events": {},
+                "links": [],
+                "properties": {
+                    "movement": {
+                        "title": "Movement detected by the sensor",
+                        "description": "Value of the movement sensor that changes if it detects movement in the room",
+                        "type": "boolean",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent28/movement28/movement",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    },
+                    "lastChange": {
+                        "title": "Last time movement was detected",
+                        "description": "It indicates the last time the movement sensor detected movement",
+                        "type": "number",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent28/movement28/lastChange",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "security": "nosec_sc",
+                "securityDefinitions": {
+                    "nosec_sc": {
+                        "scheme": "nosec"
+                    }
+                },
+                "title": "Movement sensor in the room 9"
+            }
+        },
+        {
+            "td_id": "acg:home:movement29",
+            "selector_score": 0.6,
+            "retrieval_reason": "Motion sensor exposing a movement property; location not specified in query so any sensor is plausible.",
+            "td": {
+                "id": "acg:home:movement29",
+                "@context": "https://www.w3.org/2019/wot/td/v1",
+                "actions": {},
+                "base": "http://localhost/agent29/movement29",
+                "description": "Movement sensor located in room_10",
+                "events": {},
+                "links": [],
+                "properties": {
+                    "movement": {
+                        "title": "Movement detected by the sensor",
+                        "description": "Value of the movement sensor that changes if it detects movement in the room",
+                        "type": "boolean",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent29/movement29/movement",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    },
+                    "lastChange": {
+                        "title": "Last time movement was detected",
+                        "description": "It indicates the last time the movement sensor detected movement",
+                        "type": "number",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent29/movement29/lastChange",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "security": "nosec_sc",
+                "securityDefinitions": {
+                    "nosec_sc": {
+                        "scheme": "nosec"
+                    }
+                },
+                "title": "Movement sensor in the room 10"
+            }
+        }
+    ],
+    "missing_td_ids": []
+}

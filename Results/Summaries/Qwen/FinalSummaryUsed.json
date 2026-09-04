@@ -1,0 +1,1386 @@
+/* 1 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b4fa"),
+    "deviceId" : "acg:home:battery1",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Battery service",
+    "properties" : [ 
+        "charge", 
+        "charging"
+    ],
+    "summary" : "It reports the current charge percentage and charging status of the battery.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b4fb"),
+    "deviceId" : "acg:home:battery2",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Battery service",
+    "properties" : [ 
+        "charge", 
+        "charging"
+    ],
+    "summary" : "It reports the charge percentage and charging status of the battery in the garage.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b4fc"),
+    "deviceId" : "acg:home:battery3",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Battery service",
+    "properties" : [ 
+        "charge", 
+        "charging"
+    ],
+    "summary" : "A battery with a charge percentage and charging status in the kitchen. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b4fd"),
+    "deviceId" : "acg:home:battery4",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Battery service",
+    "properties" : [ 
+        "charge", 
+        "charging"
+    ],
+    "summary" : "It reports the battery charge percentage and charging status in the watter room. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b4fe"),
+    "deviceId" : "acg:home:battery5",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Battery service",
+    "properties" : [ 
+        "charge", 
+        "charging"
+    ],
+    "summary" : "It reports the charge percentage and charging status of the battery.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b4ff"),
+    "deviceId" : "acg:home:battery6",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Battery service",
+    "properties" : [ 
+        "charge", 
+        "charging"
+    ],
+    "summary" : "It reports the battery charge percentage and charging status in the entrance.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b500"),
+    "deviceId" : "acg:home:doorlock1",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Door lock service",
+    "properties" : [ 
+        "open"
+    ],
+    "summary" : "It controls and reports the status of a doorlock in the dining room.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b501"),
+    "deviceId" : "acg:home:doorlock2",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Door lock service",
+    "properties" : [ 
+        "open"
+    ],
+    "summary" : "It controls a door lock in the livingroom and reports its status.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b502"),
+    "deviceId" : "acg:home:doorlock3",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Door lock service",
+    "properties" : [ 
+        "open"
+    ],
+    "summary" : "It controls and reports the status of a door lock in the entrance. It can be opened or closed remotely.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 10 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b503"),
+    "deviceId" : "acg:home:doorlock4",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Door lock service",
+    "properties" : [ 
+        "open"
+    ],
+    "summary" : "It controls the status of a door lock in room_1. It can open or close the door and reports its current state.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 11 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b504"),
+    "deviceId" : "acg:home:doorlock5",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Door lock service",
+    "properties" : [ 
+        "open"
+    ],
+    "summary" : "A door lock that can be opened or closed, and reports its status. It does not require authentication.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 12 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b505"),
+    "deviceId" : "acg:home:heatingcontrol1",
+    "actions" : [ 
+        "heatingcontrol"
+    ],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Thermostat controller",
+    "properties" : [ 
+        "heatingOn"
+    ],
+    "summary" : "It controls the thermostat status in the dining room.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 13 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b506"),
+    "deviceId" : "acg:home:heatingcontrol2",
+    "actions" : [ 
+        "heatingcontrol"
+    ],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Thermostat controller",
+    "properties" : [ 
+        "heatingOn"
+    ],
+    "summary" : "It controls and reports the status of a thermostat located in the watter room.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 14 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b507"),
+    "deviceId" : "acg:home:heatingcontrol3",
+    "actions" : [ 
+        "heatingcontrol"
+    ],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Thermostat controller",
+    "properties" : [ 
+        "heatingOn"
+    ],
+    "summary" : "It controls the heating status and reports whether it is on or off.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 15 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b508"),
+    "deviceId" : "acg:home:heatingcontrol4",
+    "actions" : [ 
+        "heatingcontrol"
+    ],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Thermostat controller",
+    "properties" : [ 
+        "heatingOn"
+    ],
+    "summary" : "It controls the heating on or off in room_6.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 16 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b509"),
+    "deviceId" : "acg:home:light1",
+    "actions" : [ 
+        "lightOn"
+    ],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Light bulb",
+    "properties" : [ 
+        "lightOn"
+    ],
+    "summary" : "A light bulb located in the children bedroom. It can be turned on or off.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 17 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b50a"),
+    "deviceId" : "acg:home:light10",
+    "actions" : [ 
+        "lightOn"
+    ],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Light bulb",
+    "properties" : [ 
+        "lightOn"
+    ],
+    "summary" : "It controls the status of a light bulb located in the livingroom. It reports whether the light is on or off.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 18 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b50b"),
+    "deviceId" : "acg:home:light11",
+    "actions" : [ 
+        "lightOn"
+    ],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Light bulb",
+    "properties" : [ 
+        "lightOn"
+    ],
+    "summary" : "It is a light bulb located in the water room that can be turned on or off.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 19 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b50c"),
+    "deviceId" : "acg:home:light12",
+    "actions" : [ 
+        "lightOn"
+    ],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Light bulb",
+    "properties" : [ 
+        "lightOn"
+    ],
+    "summary" : "It is a light bulb located in the entrance that can be turned on or off.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 20 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b50d"),
+    "deviceId" : "acg:home:light13",
+    "actions" : [ 
+        "lightOn"
+    ],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Light bulb",
+    "properties" : [ 
+        "lightOn"
+    ],
+    "summary" : "It controls a light bulb located in the bedroom. It can be turned on or off.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 21 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b50e"),
+    "deviceId" : "acg:home:light14",
+    "actions" : [ 
+        "lightOn"
+    ],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Light bulb",
+    "properties" : [ 
+        "lightOn"
+    ],
+    "summary" : "It controls a light bulb located in the shower room, allowing you to turn it on and off.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 22 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b50f"),
+    "deviceId" : "acg:home:light2",
+    "actions" : [ 
+        "lightOn"
+    ],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Light bulb",
+    "properties" : [ 
+        "lightOn"
+    ],
+    "summary" : "It is a light bulb located in the parent bedroom. It reports whether the light is on or off.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 23 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b510"),
+    "deviceId" : "acg:home:light20",
+    "actions" : [ 
+        "lightOn"
+    ],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Light bulb",
+    "properties" : [ 
+        "lightOn"
+    ],
+    "summary" : "It controls the status of a light bulb located in room_1. It reports whether the light is on or off.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 24 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b511"),
+    "deviceId" : "acg:home:light21",
+    "actions" : [ 
+        "lightOn"
+    ],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Light bulb",
+    "properties" : [ 
+        "lightOn"
+    ],
+    "summary" : "It controls a light bulb located in room_2. It reports whether the light is on or off.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 25 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b512"),
+    "deviceId" : "acg:home:light22",
+    "actions" : [ 
+        "lightOn"
+    ],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Light bulb",
+    "properties" : [ 
+        "lightOn"
+    ],
+    "summary" : "It is a light bulb located in room_3 that can be turned on or off. It reports whether the light is currently on.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 26 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b513"),
+    "deviceId" : "acg:home:light23",
+    "actions" : [ 
+        "lightOn"
+    ],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Light bulb",
+    "properties" : [ 
+        "lightOn"
+    ],
+    "summary" : "It controls the light in room_4. It can be turned on and off.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 27 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b514"),
+    "deviceId" : "acg:home:light24",
+    "actions" : [ 
+        "lightOn"
+    ],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Light bulb",
+    "properties" : [ 
+        "lightOn"
+    ],
+    "summary" : "It is a light bulb located in room_5 that reports whether it is on or off.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 28 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b515"),
+    "deviceId" : "acg:home:light25",
+    "actions" : [ 
+        "lightOn"
+    ],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Light bulb",
+    "properties" : [ 
+        "lightOn"
+    ],
+    "summary" : "It controls a light bulb located in room_6. It reports whether the light is on or off and can be turned on or off remotely.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 29 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b516"),
+    "deviceId" : "acg:home:light26",
+    "actions" : [ 
+        "lightOn"
+    ],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Light bulb",
+    "properties" : [ 
+        "lightOn"
+    ],
+    "summary" : "It is a light bulb located in room_7. It reports the current status of the light and can be turned on/off remotely.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 30 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b517"),
+    "deviceId" : "acg:home:light27",
+    "actions" : [ 
+        "lightOn"
+    ],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Light bulb",
+    "properties" : [ 
+        "lightOn"
+    ],
+    "summary" : "It is a light bulb located in room_8. It reports whether the light is on or off.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 31 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b518"),
+    "deviceId" : "acg:home:light28",
+    "actions" : [ 
+        "lightOn"
+    ],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Light bulb",
+    "properties" : [ 
+        "lightOn"
+    ],
+    "summary" : "It is a light bulb located in room_9. It reports whether the light is on or off.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 32 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b519"),
+    "deviceId" : "acg:home:light29",
+    "actions" : [ 
+        "lightOn"
+    ],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Light bulb",
+    "properties" : [ 
+        "lightOn"
+    ],
+    "summary" : "It is a light bulb located in room_10. It reports whether the light is on or off.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 33 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b51a"),
+    "deviceId" : "acg:home:light4",
+    "actions" : [ 
+        "lightOn"
+    ],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Light bulb",
+    "properties" : [ 
+        "lightOn"
+    ],
+    "summary" : "It controls and reports the status of a light bulb located in the kitchen.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 34 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b51b"),
+    "deviceId" : "acg:home:light5",
+    "actions" : [ 
+        "lightOn"
+    ],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Light bulb",
+    "properties" : [ 
+        "lightOn"
+    ],
+    "summary" : "It is a light bulb located in the garage. It reports whether the light is on or off.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 35 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b51c"),
+    "deviceId" : "acg:home:light6",
+    "actions" : [ 
+        "lightOn"
+    ],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Light bulb",
+    "properties" : [ 
+        "lightOn"
+    ],
+    "summary" : "It is a light bulb located in the bathroom. It can be turned on or off, and its status can be read.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 36 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b51d"),
+    "deviceId" : "acg:home:movement1",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Movement sensor in the children bedroom",
+    "properties" : [ 
+        "movement", 
+        "lastChange"
+    ],
+    "summary" : "It reports whether movement is detected in the children's bedroom and the last time it was detected.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 37 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b51e"),
+    "deviceId" : "acg:home:movement10",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Movement sensor in the room 10",
+    "properties" : [ 
+        "movement", 
+        "lastChange"
+    ],
+    "summary" : "It reports movement detected in the livingroom and indicates the last time movement was detected.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 38 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b51f"),
+    "deviceId" : "acg:home:movement11",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Movement sensor in the room 3",
+    "properties" : [ 
+        "movement", 
+        "lastChange"
+    ],
+    "summary" : "It reports movement detection in the water room and the last time movement was detected.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 39 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b520"),
+    "deviceId" : "acg:home:movement12",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Movement sensor in the room 12",
+    "properties" : [ 
+        "movement", 
+        "lastChange"
+    ],
+    "summary" : "It detects movement and reports the last time movement was detected.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 40 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b521"),
+    "deviceId" : "acg:home:movement13",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Movement sensor in the bedroom",
+    "properties" : [ 
+        "movement", 
+        "lastChange"
+    ],
+    "summary" : "It detects movement and reports whether movement was detected along with the last change time.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 41 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b522"),
+    "deviceId" : "acg:home:movement14",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Movement sensor in the shower room",
+    "properties" : [ 
+        "movement", 
+        "lastChange"
+    ],
+    "summary" : "It reports whether movement is detected in the shower room and when it last occurred.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 42 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b523"),
+    "deviceId" : "acg:home:movement2",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Movement sensor in the parent bedroom",
+    "properties" : [ 
+        "movement", 
+        "lastChange"
+    ],
+    "summary" : "It detects movement and reports when it last detected activity in the parent bedroom.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 43 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b524"),
+    "deviceId" : "acg:home:movement20",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Movement sensor in the room 3",
+    "properties" : [ 
+        "movement", 
+        "lastChange"
+    ],
+    "summary" : "It reports whether movement is detected in the room.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 44 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b525"),
+    "deviceId" : "acg:home:movement21",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Movement sensor in the room 2",
+    "properties" : [ 
+        "movement", 
+        "lastChange"
+    ],
+    "summary" : "It reports movement detected in the room and the last time movement was registered.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 45 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b526"),
+    "deviceId" : "acg:home:movement22",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Movement sensor in the room 3",
+    "properties" : [ 
+        "movement", 
+        "lastChange"
+    ],
+    "summary" : "It reports movement detected in the room and the last time it was detected.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 46 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b527"),
+    "deviceId" : "acg:home:movement23",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Movement sensor in the room 4",
+    "properties" : [ 
+        "movement", 
+        "lastChange"
+    ],
+    "summary" : "It reports whether movement is detected in the room.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 47 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b528"),
+    "deviceId" : "acg:home:movement24",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Movement sensor in the room 5",
+    "properties" : [ 
+        "movement", 
+        "lastChange"
+    ],
+    "summary" : "It detects movement in room_5 and reports the last time movement was detected.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 48 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b529"),
+    "deviceId" : "acg:home:movement25",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Movement sensor in the room 6",
+    "properties" : [ 
+        "movement", 
+        "lastChange"
+    ],
+    "summary" : "It detects movement and reports the last time movement was detected in room 6.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 49 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b52a"),
+    "deviceId" : "acg:home:movement26",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Movement sensor in the room 3",
+    "properties" : [ 
+        "movement", 
+        "lastChange"
+    ],
+    "summary" : "It reports whether movement is detected in the room.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 50 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b52b"),
+    "deviceId" : "acg:home:movement27",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Movement sensor in the room 8",
+    "properties" : [ 
+        "movement", 
+        "lastChange"
+    ],
+    "summary" : "It reports movement detection and last change times in the room.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 51 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b52c"),
+    "deviceId" : "acg:home:movement28",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Movement sensor in the room 9",
+    "properties" : [ 
+        "movement", 
+        "lastChange"
+    ],
+    "summary" : "It detects movement in room_9 and reports the last time movement was detected.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 52 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b52d"),
+    "deviceId" : "acg:home:movement29",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Movement sensor in the room 10",
+    "properties" : [ 
+        "movement", 
+        "lastChange"
+    ],
+    "summary" : "It reports whether movement is detected in the room and when the last movement was.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 53 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b52e"),
+    "deviceId" : "acg:home:movement3",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Movement sensor in the room 3",
+    "properties" : [ 
+        "movement", 
+        "lastChange"
+    ],
+    "summary" : "It reports whether movement is detected in the dining room.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 54 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b52f"),
+    "deviceId" : "acg:home:movement4",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Movement sensor in the kitchen",
+    "properties" : [ 
+        "movement", 
+        "lastChange"
+    ],
+    "summary" : "It reports whether movement is detected in the kitchen and when it last occurred.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 55 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b530"),
+    "deviceId" : "acg:home:movement5",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Movement sensor in the room 3",
+    "properties" : [ 
+        "movement", 
+        "lastChange"
+    ],
+    "summary" : "It reports whether movement is detected in the room.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 56 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b531"),
+    "deviceId" : "acg:home:movement6",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Movement sensor in the bathroom",
+    "properties" : [ 
+        "movement", 
+        "lastChange"
+    ],
+    "summary" : "It reports whether movement is detected in the bathroom and when the last movement was.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 57 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b532"),
+    "deviceId" : "acg:home:questioningservice1",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Questioning service",
+    "properties" : [ 
+        "smartphone"
+    ],
+    "summary" : "A smartphone questioning service in the dining room that reports information requested via a string.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 58 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b533"),
+    "deviceId" : "acg:home:questioningservice2",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Questioning service",
+    "properties" : [ 
+        "smartphone"
+    ],
+    "summary" : "It reports whether the smartphone is inquiring for information.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 59 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b534"),
+    "deviceId" : "acg:home:questioningservice3",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Questioning service",
+    "properties" : [ 
+        "smartphone"
+    ],
+    "summary" : "It reports the status of the smartphone, allowing users to ask for information.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 60 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b535"),
+    "deviceId" : "acg:home:tempin1",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Temperature service",
+    "properties" : [ 
+        "tempin"
+    ],
+    "summary" : "It reports the current temperature in the children's bedroom.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 61 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b536"),
+    "deviceId" : "acg:home:tempin10",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Temperature service",
+    "properties" : [ 
+        "tempin"
+    ],
+    "summary" : "It reports the current temperature in the livingroom.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 62 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b537"),
+    "deviceId" : "acg:home:tempin11",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Temperature service",
+    "properties" : [ 
+        "tempin"
+    ],
+    "summary" : "It reports the temperature in the bathroom.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 63 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b538"),
+    "deviceId" : "acg:home:tempin12",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Temperature service",
+    "properties" : [ 
+        "tempin"
+    ],
+    "summary" : "It reports the current temperature in the entrance.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 64 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b539"),
+    "deviceId" : "acg:home:tempin13",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Temperature service",
+    "properties" : [ 
+        "tempin"
+    ],
+    "summary" : "It reports the temperature of the bedroom.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 65 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b53a"),
+    "deviceId" : "acg:home:tempin14",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Temperature service",
+    "properties" : [ 
+        "tempin"
+    ],
+    "summary" : "It reports the current ambient temperature in the shower room.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 66 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b53b"),
+    "deviceId" : "acg:home:tempin2",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Temperature service",
+    "properties" : [ 
+        "tempin"
+    ],
+    "summary" : "It reports the current ambient temperature in the parent bedroom.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 67 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b53c"),
+    "deviceId" : "acg:home:tempin20",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Temperature service",
+    "properties" : [ 
+        "tempin"
+    ],
+    "summary" : "It reports the current ambient temperature in room_1.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 68 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b53d"),
+    "deviceId" : "acg:home:tempin21",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Temperature service",
+    "properties" : [ 
+        "tempin"
+    ],
+    "summary" : "It reports the temperature of room_2.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 69 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b53e"),
+    "deviceId" : "acg:home:tempin22",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Temperature service",
+    "properties" : [ 
+        "tempin"
+    ],
+    "summary" : "It reports the current temperature in room 3.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 70 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b53f"),
+    "deviceId" : "acg:home:tempin23",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Temperature service",
+    "properties" : [ 
+        "tempin"
+    ],
+    "summary" : "It reports the current temperature of room_4.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 71 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b540"),
+    "deviceId" : "acg:home:tempin24",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Temperature service",
+    "properties" : [ 
+        "tempin"
+    ],
+    "summary" : "It reports the current ambient temperature in room_5.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 72 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b541"),
+    "deviceId" : "acg:home:tempin25",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Temperature service",
+    "properties" : [ 
+        "tempin"
+    ],
+    "summary" : "It reports the current temperature of room_6.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 73 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b542"),
+    "deviceId" : "acg:home:tempin26",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Temperature service",
+    "properties" : [ 
+        "tempin"
+    ],
+    "summary" : "It reports the current temperature in room_7.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 74 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b543"),
+    "deviceId" : "acg:home:tempin27",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Temperature service",
+    "properties" : [ 
+        "tempin"
+    ],
+    "summary" : "It reports the current temperature in room_8.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 75 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b544"),
+    "deviceId" : "acg:home:tempin28",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Temperature service",
+    "properties" : [ 
+        "tempin"
+    ],
+    "summary" : "It reports the current temperature in room 9.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 76 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b545"),
+    "deviceId" : "acg:home:tempin29",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Temperature service",
+    "properties" : [ 
+        "tempin"
+    ],
+    "summary" : "It reports the temperature in room_10.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 77 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b546"),
+    "deviceId" : "acg:home:tempin3",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Temperature service",
+    "properties" : [ 
+        "tempin"
+    ],
+    "summary" : "Reports the current ambient temperature in the dining room.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 78 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b547"),
+    "deviceId" : "acg:home:tempin4",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Temperature service",
+    "properties" : [ 
+        "tempin"
+    ],
+    "summary" : "It reports the current temperature in the kitchen.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 79 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b548"),
+    "deviceId" : "acg:home:tempin5",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Temperature service",
+    "properties" : [ 
+        "tempin"
+    ],
+    "summary" : "It reports the current temperature in the garage.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 80 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b549"),
+    "deviceId" : "acg:home:tempin6",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Temperature service",
+    "properties" : [ 
+        "tempin"
+    ],
+    "summary" : "Reports the current ambient temperature in the bathroom.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 81 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b54a"),
+    "deviceId" : "acg:home:washingmachine1",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Washing machine",
+    "properties" : [ 
+        "washing"
+    ],
+    "summary" : "It reports the status of the washing machine, indicating whether it is on or off.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}
+
+/* 82 */
+{
+    "_id" : ObjectId("6a8c3b37e39fe9bbc9f3b54b"),
+    "deviceId" : "acg:home:washingmachine3",
+    "actions" : [],
+    "createdAt" : ISODate("2026-08-24T12:38:15.617Z"),
+    "events" : [],
+    "generatedAt" : ISODate("2026-08-24T12:38:15.616Z"),
+    "name" : "Washing machine",
+    "properties" : [ 
+        "washing"
+    ],
+    "summary" : "It reports whether the washing machine is on or off.",
+    "updatedAt" : ISODate("2026-08-24T12:38:15.617Z")
+}

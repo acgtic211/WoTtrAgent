@@ -1,0 +1,120 @@
+version: '3.8'
+
+services:
+
+##############################################################################################################
+######################################### NODE 1 #############################################################
+##############################################################################################################
+
+  wottrader1:
+    image: acgtic211/wottrader:1.0.1
+    ports:
+      - "3021:3000"
+    depends_on:
+      - mongodb1
+      - jena-fuseki1
+    environment:
+      - MONGODB_URI_DEVELOPMENT=mongodb://wot_admin:pw1234@mongodb1:27017/
+      - MONGODB_DATABASE=node-database
+      - FUSEKI_URI_DEVELOPMENT=http://jena-fuseki1:3030/wottrader
+      - FUSEKI_USERNAME=admin
+      - FUSEKI_PASSWORD=pw123
+      - WEB_APP_PORT=3000
+    command: >
+      sh -c "
+      /wait-for-it.sh mongodb1:27017 -- 
+      /wait-for-it.sh jena-fuseki1:3030 -- 
+      npm start"
+    networks:
+      - wottrader
+
+  mongodb1:
+    image: bitnami/mongodb:4.4
+    ports:
+      - "27121:27017"
+    environment:
+      - MONGODB_ROOT_PASSWORD=pw1234
+      - MONGODB_USERNAME=wot_admin
+      - MONGODB_PASSWORD=pw1234
+      - MONGODB_DATABASE=node-database
+    volumes:
+      - mongodb_data1:/data/db
+      - ./init-mongo.js:/docker-entrypoint-initdb.d/init-mongo.js:ro
+    networks:
+      - wottrader
+
+  jena-fuseki1:
+    image: stain/jena-fuseki
+    ports:
+      - "3121:3030"
+    environment:
+      - ADMIN_PASSWORD=pw123
+      - TDB=2
+    volumes:
+      - "fuseki_data1:/fuseki"
+      - "./fuseki-config.ttl:/staging/fuseki-config.ttl"
+    command: >
+      sh -c "
+      cp /staging/fuseki-config.ttl /fuseki/config.ttl &&
+      /jena-fuseki/fuseki-server"
+    networks:
+      - wottrader
+
+
+##############################################################################################################
+####################################### ADDITIONAL SERVICES ##################################################
+##############################################################################################################
+
+  ollama:
+    image: ollama/ollama:latest
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    networks:
+      - wottrader
+
+  ollama-pull-qwen:
+    image: ollama/ollama:latest
+    depends_on:
+      - ollama
+    entrypoint:
+      - /bin/sh
+      - -c
+    command:
+      - until OLLAMA_HOST=http://ollama:11434 ollama list >/dev/null 2>&1; do sleep 2; done; OLLAMA_HOST=http://ollama:11434 ollama pull qwen2.5-coder:7b
+    volumes:
+      - ollama_data:/root/.ollama
+    networks:
+      - wottrader
+
+  wotragents:
+    image: acgtic211/wotragents:1.0.0
+    depends_on:
+      wottrader1:
+        condition: service_started
+      ollama:
+        condition: service_started
+      ollama-pull-qwen:
+        condition: service_completed_successfully
+    ports:
+      - "8001:8001"
+    environment:
+      #MODEL_CLIENT_PROVIDER=claude_sonnet_5
+      #ANTHROPIC_API_KEY=<API-KEY>
+      - MODEL_CLIENT_PROVIDER=ollama
+      - OLLAMA_HOST=http://ollama:11434
+      - OLLAMA_MODEL=qwen2.5-coder:7b
+      - WOTTRADER_BASE_URL=http://wottrader1:3000
+    networks:
+      - wottrader
+
+  
+
+networks:
+  wottrader:
+
+volumes:
+  mongodb_data1:
+  fuseki_data1:
+  ollama_data:

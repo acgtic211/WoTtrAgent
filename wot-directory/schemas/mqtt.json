@@ -1,0 +1,16 @@
+{
+    "id": "acg:lab:door",
+    "@context": "https://www.w3.org/2019/wot/td/v1",
+    "properties": {
+        
+    },
+    "security": [
+        "nosec"
+    ],
+    "securityDefinitions": {
+        "nosec_sc": {
+            "scheme": "nosec"
+        }
+    },
+    "title": "ACG Lab door"
+}

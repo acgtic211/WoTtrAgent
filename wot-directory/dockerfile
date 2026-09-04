@@ -1,0 +1,23 @@
+FROM node:14
+
+RUN apt-get -y update && apt-get -y install nmap
+
+WORKDIR /wot-directory
+#CMD ["ls", "-al"]
+
+# Copy package.json and package-lock.json
+COPY package*.json ./
+
+RUN npm install
+
+# Copy the rest of the application code
+COPY . .
+
+# Copy the wait-for-it.sh script
+COPY wait-for-it.sh /wait-for-it.sh
+
+# Make the wait-for-it.sh script executable
+RUN chmod +x /wait-for-it.sh
+
+EXPOSE 3000
+CMD [ "npm", "run", "dev"]

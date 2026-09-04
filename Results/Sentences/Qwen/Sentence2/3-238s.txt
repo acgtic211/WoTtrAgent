@@ -1,0 +1,77 @@
+{
+    "candidates": [
+        {
+            "td_id": "acg:home:washingmachine1",
+            "selector_score": 0.85,
+            "retrieval_reason": "It reports the status of the washing machine, which suggests it has a property that could be used to determine if it is on or off.",
+            "td": {
+                "id": "acg:home:washingmachine1",
+                "@context": "https://www.w3.org/2019/wot/td/v1",
+                "base": "http://localhost/agent6/washingmachine1",
+                "description": "Washing machine located in bathroom",
+                "events": {},
+                "links": [],
+                "properties": {
+                    "washing": {
+                        "title": "Washing machine status",
+                        "description": "If the washing machine is on or off",
+                        "type": "boolean",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent6/washingmachine1/washing",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "security": "nosec_sc",
+                "securityDefinitions": {
+                    "nosec_sc": {
+                        "scheme": "nosec"
+                    }
+                },
+                "title": "Washing machine"
+            }
+        },
+        {
+            "td_id": "acg:home:washingmachine3",
+            "selector_score": 0.85,
+            "retrieval_reason": "Similar to acg:home:washingmachine1, this washing machine also reports its status, suggesting it has a property that could be used to determine if it is on or off.",
+            "td": {
+                "id": "acg:home:washingmachine3",
+                "@context": "https://www.w3.org/2019/wot/td/v1",
+                "base": "http://localhost/agent14/washingmachine3",
+                "description": "Washing machine located in shower room",
+                "events": {},
+                "links": [],
+                "properties": {
+                    "washing": {
+                        "title": "Washing machine status",
+                        "description": "If the washing machine is on or off",
+                        "type": "boolean",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent14/washingmachine3/washing",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "security": "nosec_sc",
+                "securityDefinitions": {
+                    "nosec_sc": {
+                        "scheme": "nosec"
+                    }
+                },
+                "title": "Washing machine"
+            }
+        }
+    ],
+    "missing_td_ids": []
+}

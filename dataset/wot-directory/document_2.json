@@ -1,0 +1,48 @@
+{
+    "id": "acg:home:movement13",
+    "@context": "https://www.w3.org/2019/wot/td/v1",
+    "actions": {},
+    "createdAt": "2024-04-08T11:18:39.961Z",
+    "description": "Movement sensor located in the bedroom",
+    "base": "http://localhost/agent13/movement13",
+    "events": {},
+    "links": [],
+    "properties": {
+        "movement": {
+            "title": "Movement detected by the sensor",
+            "description": "Value of the movement sensor that changes if it detects movement in the room",
+            "type": "boolean",
+            "forms": [
+                {
+                    "href": "http://localhost/agent13/movement13/movement",
+                    "contentType": "application/json",
+                    "op": [
+                        "readproperty"
+                    ]
+                }
+            ]
+        },
+        "lastChange": {
+            "title": "Last time movement was detected",
+            "description": "It indicates the last time the movement sensor detected movement",
+            "type": "number",
+            "forms": [
+                {
+                    "href": "http://localhost/agent13/movement13/lastChange",
+                    "contentType": "application/json",
+                    "op": [
+                        "readproperty"
+                    ]
+                }
+            ]
+        }
+    },
+    "security": "nosec_sc",
+    "securityDefinitions": {
+        "nosec_sc": {
+            "scheme": "nosec"
+        }
+    },
+    "title": "Movement sensor in the bedroom",
+    "updatedAt": "2024-04-08T11:18:39.961Z"
+}

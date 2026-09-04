@@ -1,0 +1,33 @@
+{
+    "id": "acg:home:questioningservice2",
+    "@context": "https://www.w1.org/2019/wot/td/v1",
+    "createdAt": "2024-04-08T11:18:19.961Z",
+    "description": "Smartphone questioning service in livingroom",
+    "base": "http://localhost/agent10/questioningservice2",
+    "events": {},
+    "links": [],
+    "properties": {
+        "smartphone": {
+            "title": "Questioning",
+            "description": "Asking the smartphone for information",
+            "type": "string",
+            "forms": [
+                {
+                    "href": "http://localhost/agent10/questioningservice2",
+                    "contentType": "application/json",
+                    "op": [
+                        "readproperty"
+                    ]
+                }
+            ]
+        }
+    },
+    "security": "nosec_sc",
+    "securityDefinitions": {
+        "nosec_sc": {
+            "scheme": "nosec"
+        }
+    },
+    "title": "Questioning service",
+    "updatedAt": "2024-04-08T11:18:19.961Z"
+}

@@ -1,0 +1,33 @@
+{
+    "id": "acg:home:washingmachine3",
+    "@context": "https://www.w3.org/2019/wot/td/v1",
+    "createdAt": "2024-04-08T11:18:39.961Z",
+    "description": "Washing machine located in watter room",
+    "base": "http://localhost/agent11/washingmachine3",
+    "events": {},
+    "links": [],
+    "properties": {
+        "washing": {
+            "title": "Washing machine status",
+            "description": "If the washing machine is on or off",
+            "type": "boolean",
+            "forms": [
+                {
+                    "href": "http://localhost/agent11/washingmachine3/washing",
+                    "contentType": "application/json",
+                    "op": [
+                        "readproperty"
+                    ]
+                }
+            ]
+        }
+    },
+    "security": "nosec_sc",
+    "securityDefinitions": {
+        "nosec_sc": {
+            "scheme": "nosec"
+        }
+    },
+    "title": "Washing machine",
+    "updatedAt": "2024-04-08T11:18:39.961Z"
+}

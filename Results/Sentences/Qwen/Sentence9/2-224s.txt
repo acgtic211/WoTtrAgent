@@ -1,0 +1,55 @@
+{
+    "candidates": [
+        {
+            "td_id": "acg:home:battery3",
+            "selector_score": 0.85,
+            "retrieval_reason": "It reports the charge percentage and charging status of the battery in the kitchen.",
+            "td": {
+                "id": "acg:home:battery3",
+                "@context": "https://www.w1.org/2019/wot/td/v1",
+                "base": "http://localhost/agent4/battery3",
+                "description": "Battery service in kitchen",
+                "events": {},
+                "links": [],
+                "properties": {
+                    "charge": {
+                        "title": "Charge percentage",
+                        "description": "The actual charge percentage of the battery",
+                        "type": "number",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent4/battery3/charge",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    },
+                    "charging": {
+                        "title": "Charging status",
+                        "description": "If the battery is charging or not",
+                        "type": "boolean",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent4/battery3/charging",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "security": "nosec_sc",
+                "securityDefinitions": {
+                    "nosec_sc": {
+                        "scheme": "nosec"
+                    }
+                },
+                "title": "Battery service"
+            }
+        }
+    ],
+    "missing_td_ids": []
+}

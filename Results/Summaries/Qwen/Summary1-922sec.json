@@ -1,0 +1,899 @@
+{
+    "devices": [
+        {
+            "id": "acg:home:battery1",
+            "name": "Battery service",
+            "summary": "A battery service in the garage that reports its charge percentage and charging status without requiring authentication.",
+            "properties": [
+                "charge",
+                "charging"
+            ],
+            "actions": [],
+            "events": []
+        },
+        {
+            "id": "acg:home:battery2",
+            "name": "Battery service",
+            "summary": "It reports the current battery charge percentage and charging status.",
+            "properties": [
+                "charge",
+                "charging"
+            ],
+            "actions": [],
+            "events": []
+        },
+        {
+            "id": "acg:home:battery3",
+            "name": "Battery service",
+            "summary": "It reports the battery charge percentage and charging status in the kitchen. It does not require authentication.",
+            "properties": [
+                "charge",
+                "charging"
+            ],
+            "actions": [],
+            "events": []
+        },
+        {
+            "id": "acg:home:battery4",
+            "name": "Battery service",
+            "summary": "It reports the current charge percentage and charging status of the battery in the watter room.",
+            "properties": [
+                "charge",
+                "charging"
+            ],
+            "actions": [],
+            "events": []
+        },
+        {
+            "id": "acg:home:battery5",
+            "name": "Battery service",
+            "summary": "It reports the battery charge percentage and charging status.",
+            "properties": [
+                "charge",
+                "charging"
+            ],
+            "actions": [],
+            "events": []
+        },
+        {
+            "id": "acg:home:battery6",
+            "name": "Battery service",
+            "summary": "It reports the current charge percentage and charging status of the battery.",
+            "properties": [
+                "charge",
+                "charging"
+            ],
+            "actions": [],
+            "events": []
+        },
+        {
+            "id": "acg:home:doorlock1",
+            "name": "Door lock service",
+            "summary": "It controls and reports the status of a door lock in the dining room.",
+            "properties": [
+                "open"
+            ],
+            "actions": [],
+            "events": []
+        },
+        {
+            "id": "acg:home:doorlock2",
+            "name": "Door lock service",
+            "summary": "It controls the door lock in the living room, reporting its status and allowing remote opening or closing.",
+            "properties": [
+                "open"
+            ],
+            "actions": [],
+            "events": []
+        },
+        {
+            "id": "acg:home:doorlock3",
+            "name": "Door lock service",
+            "summary": "It reports the status of a door lock (whether it is open or closed) and can remotely open the door. It does not require authentication.",
+            "properties": [
+                "open"
+            ],
+            "actions": [],
+            "events": []
+        },
+        {
+            "id": "acg:home:doorlock4",
+            "name": "Door lock service",
+            "summary": "A door lock that reports its open status and can be manually opened or closed.",
+            "properties": [
+                "open"
+            ],
+            "actions": [],
+            "events": []
+        },
+        {
+            "id": "acg:home:doorlock5",
+            "name": "Door lock service",
+            "summary": "A door lock that reports whether the door is open or closed. It can be opened or closed remotely.",
+            "properties": [
+                "open"
+            ],
+            "actions": [],
+            "events": []
+        },
+        {
+            "id": "acg:home:heatingcontrol1",
+            "name": "Thermostat controller",
+            "summary": "It controls the thermostat in the dining room, reporting whether it is on or off.",
+            "properties": [
+                "heatingOn"
+            ],
+            "actions": [
+                "heatingcontrol"
+            ],
+            "events": []
+        },
+        {
+            "id": "acg:home:heatingcontrol2",
+            "name": "Thermostat controller",
+            "summary": "It controls the thermostat in the water room and reports its status.",
+            "properties": [
+                "heatingOn"
+            ],
+            "actions": [
+                "heatingcontrol"
+            ],
+            "events": []
+        },
+        {
+            "id": "acg:home:heatingcontrol3",
+            "name": "Thermostat controller",
+            "summary": "It reports the current status of the thermostat (on/off).",
+            "properties": [
+                "heatingOn"
+            ],
+            "actions": [
+                "heatingcontrol"
+            ],
+            "events": []
+        },
+        {
+            "id": "acg:home:heatingcontrol4",
+            "name": "Thermostat controller",
+            "summary": "It reports whether the thermostat is on or off.",
+            "properties": [
+                "heatingOn"
+            ],
+            "actions": [
+                "heatingcontrol"
+            ],
+            "events": []
+        },
+        {
+            "id": "acg:home:light1",
+            "name": "Light bulb",
+            "summary": "A light bulb located in the children's bedroom that can be turned on or off.",
+            "properties": [
+                "lightOn"
+            ],
+            "actions": [
+                "lightOn"
+            ],
+            "events": []
+        },
+        {
+            "id": "acg:home:light10",
+            "name": "Light bulb",
+            "summary": "It is a light bulb located in the living room that can be turned on or off.",
+            "properties": [
+                "lightOn"
+            ],
+            "actions": [
+                "lightOn"
+            ],
+            "events": []
+        },
+        {
+            "id": "acg:home:light11",
+            "name": "Light bulb",
+            "summary": "A light bulb located in the watter room that can be turned on or off.",
+            "properties": [
+                "lightOn"
+            ],
+            "actions": [
+                "lightOn"
+            ],
+            "events": []
+        },
+        {
+            "id": "acg:home:light12",
+            "name": "Light bulb",
+            "summary": "It is a light bulb located in the entrance. It reports whether the light is on or off and can be turned on or off remotely.",
+            "properties": [
+                "lightOn"
+            ],
+            "actions": [
+                "lightOn"
+            ],
+            "events": []
+        },
+        {
+            "id": "acg:home:light13",
+            "name": "Light bulb",
+            "summary": "It controls a light bulb in the bedroom, reporting its status and allowing remote on/off control.",
+            "properties": [
+                "lightOn"
+            ],
+            "actions": [
+                "lightOn"
+            ],
+            "events": []
+        },
+        {
+            "id": "acg:home:light14",
+            "name": "Light bulb",
+            "summary": "A light bulb located in the shower room that can be turned on and off.",
+            "properties": [
+                "lightOn"
+            ],
+            "actions": [
+                "lightOn"
+            ],
+            "events": []
+        },
+        {
+            "id": "acg:home:light2",
+            "name": "Light bulb",
+            "summary": "It is a light bulb located in the parent bedroom. It reports whether the light is on or off.",
+            "properties": [
+                "lightOn"
+            ],
+            "actions": [
+                "lightOn"
+            ],
+            "events": []
+        },
+        {
+            "id": "acg:home:light20",
+            "name": "Light bulb",
+            "summary": "It controls the status of a light bulb, which can be turned on or off. It is located in room_1 and does not require authentication.",
+            "properties": [
+                "lightOn"
+            ],
+            "actions": [
+                "lightOn"
+            ],
+            "events": []
+        },
+        {
+            "id": "acg:home:light21",
+            "name": "Light bulb",
+            "summary": "It is a light bulb located in room_2. It reports whether the light is on or off.",
+            "properties": [
+                "lightOn"
+            ],
+            "actions": [
+                "lightOn"
+            ],
+            "events": []
+        },
+        {
+            "id": "acg:home:light22",
+            "name": "Light bulb",
+            "summary": "It reports whether the light is on or off.",
+            "properties": [
+                "lightOn"
+            ],
+            "actions": [
+                "lightOn"
+            ],
+            "events": []
+        },
+        {
+            "id": "acg:home:light23",
+            "name": "Light bulb",
+            "summary": "It is a light bulb located in room_4. It reports whether the light is on or off through its status property. It can be turned on or off using the 'Change status of the light' action. It does not require authentication.",
+            "properties": [
+                "lightOn"
+            ],
+            "actions": [
+                "lightOn"
+            ],
+            "events": []
+        },
+        {
+            "id": "acg:home:light24",
+            "name": "Light bulb",
+            "summary": "It is a light bulb located in room_5 that can be turned on or off. It reports the current status of the light.",
+            "properties": [
+                "lightOn"
+            ],
+            "actions": [
+                "lightOn"
+            ],
+            "events": []
+        },
+        {
+            "id": "acg:home:light25",
+            "name": "Light bulb",
+            "summary": "It is a light bulb located in room_6. It reports whether the light is on or off.",
+            "properties": [
+                "lightOn"
+            ],
+            "actions": [
+                "lightOn"
+            ],
+            "events": []
+        },
+        {
+            "id": "acg:home:light26",
+            "name": "Light bulb",
+            "summary": "It is a light bulb located in room_7. It can be turned on or off.",
+            "properties": [
+                "lightOn"
+            ],
+            "actions": [
+                "lightOn"
+            ],
+            "events": []
+        },
+        {
+            "id": "acg:home:light27",
+            "name": "Light bulb",
+            "summary": "A light bulb located in room_8 that reports whether it is on or off.",
+            "properties": [
+                "lightOn"
+            ],
+            "actions": [
+                "lightOn"
+            ],
+            "events": []
+        },
+        {
+            "id": "acg:home:light28",
+            "name": "Light bulb",
+            "summary": "It is a light bulb located in room_9 that can be turned on and off. It reports the current status of the light.",
+            "properties": [
+                "lightOn"
+            ],
+            "actions": [
+                "lightOn"
+            ],
+            "events": []
+        },
+        {
+            "id": "acg:home:light29",
+            "name": "Light bulb",
+            "summary": "It is a light bulb located in room_10. It reports whether the light is on or off and can be turned on or off remotely.",
+            "properties": [
+                "lightOn"
+            ],
+            "actions": [
+                "lightOn"
+            ],
+            "events": []
+        },
+        {
+            "id": "acg:home:light4",
+            "name": "Light bulb",
+            "summary": "It is a light bulb located in the kitchen that can be turned on or off.",
+            "properties": [
+                "lightOn"
+            ],
+            "actions": [
+                "lightOn"
+            ],
+            "events": []
+        },
+        {
+            "id": "acg:home:light5",
+            "name": "Light bulb",
+            "summary": "It is a light bulb located in the garage that can be turned on or off.",
+            "properties": [
+                "lightOn"
+            ],
+            "actions": [
+                "lightOn"
+            ],
+            "events": []
+        },
+        {
+            "id": "acg:home:light6",
+            "name": "Light bulb",
+            "summary": "A light bulb located in the bathroom that can be turned on or off and reports its status.",
+            "properties": [
+                "lightOn"
+            ],
+            "actions": [
+                "lightOn"
+            ],
+            "events": []
+        },
+        {
+            "id": "acg:home:movement1",
+            "name": "Movement sensor in the children bedroom",
+            "summary": "It reports movement detection and the last time movement was detected in the children bedroom.",
+            "properties": [
+                "movement",
+                "lastChange"
+            ],
+            "actions": [],
+            "events": []
+        },
+        {
+            "id": "acg:home:movement10",
+            "name": "Movement sensor in the room 10",
+            "summary": "It reports movement detected by a sensor in the living room and the last time movement was detected.",
+            "properties": [
+                "movement",
+                "lastChange"
+            ],
+            "actions": [],
+            "events": []
+        },
+        {
+            "id": "acg:home:movement11",
+            "name": "Movement sensor in the room 3",
+            "summary": "It reports movement detected in the room and the last time movement was detected.",
+            "properties": [
+                "movement",
+                "lastChange"
+            ],
+            "actions": [],
+            "events": []
+        },
+        {
+            "id": "acg:home:movement12",
+            "name": "Movement sensor in the room 12",
+            "summary": "It detects movement and reports the last time movement was detected.",
+            "properties": [
+                "movement",
+                "lastChange"
+            ],
+            "actions": [],
+            "events": []
+        },
+        {
+            "id": "acg:home:movement13",
+            "name": "Movement sensor in the bedroom",
+            "summary": "It detects movement and reports whether movement was detected in the bedroom.",
+            "properties": [
+                "movement",
+                "lastChange"
+            ],
+            "actions": [],
+            "events": []
+        },
+        {
+            "id": "acg:home:movement14",
+            "name": "Movement sensor in the shower room",
+            "summary": "It detects movement in the shower room and reports whether it is detected along with the last time movement was observed.",
+            "properties": [
+                "movement",
+                "lastChange"
+            ],
+            "actions": [],
+            "events": []
+        },
+        {
+            "id": "acg:home:movement2",
+            "name": "Movement sensor in the parent bedroom",
+            "summary": "It detects movement in the parent bedroom and reports whether it is detected or not. It also provides the timestamp of the last movement detection.",
+            "properties": [
+                "movement",
+                "lastChange"
+            ],
+            "actions": [],
+            "events": []
+        },
+        {
+            "id": "acg:home:movement20",
+            "name": "Movement sensor in the room 3",
+            "summary": "A movement sensor located in the room that reports whether movement is detected and when it last occurred.",
+            "properties": [
+                "movement",
+                "lastChange"
+            ],
+            "actions": [],
+            "events": []
+        },
+        {
+            "id": "acg:home:movement21",
+            "name": "Movement sensor in the room 2",
+            "summary": "It reports movement detected in the room and the last time movement was detected.",
+            "properties": [
+                "movement",
+                "lastChange"
+            ],
+            "actions": [],
+            "events": []
+        },
+        {
+            "id": "acg:home:movement22",
+            "name": "Movement sensor in the room 3",
+            "summary": "It detects movement and reports when it last occurred.",
+            "properties": [
+                "movement",
+                "lastChange"
+            ],
+            "actions": [],
+            "events": []
+        },
+        {
+            "id": "acg:home:movement23",
+            "name": "Movement sensor in the room 4",
+            "summary": "It detects movement in the room and reports the last time movement was detected.",
+            "properties": [
+                "movement",
+                "lastChange"
+            ],
+            "actions": [],
+            "events": []
+        },
+        {
+            "id": "acg:home:movement24",
+            "name": "Movement sensor in the room 5",
+            "summary": "It reports movement detected in the room and the last time movement was detected.",
+            "properties": [
+                "movement",
+                "lastChange"
+            ],
+            "actions": [],
+            "events": []
+        },
+        {
+            "id": "acg:home:movement25",
+            "name": "Movement sensor in the room 6",
+            "summary": "It detects movement in room_6 and reports the last time movement was detected.",
+            "properties": [
+                "movement",
+                "lastChange"
+            ],
+            "actions": [],
+            "events": []
+        },
+        {
+            "id": "acg:home:movement26",
+            "name": "Movement sensor in the room 3",
+            "summary": "It reports whether movement is detected in the room and when it last occurred.",
+            "properties": [
+                "movement",
+                "lastChange"
+            ],
+            "actions": [],
+            "events": []
+        },
+        {
+            "id": "acg:home:movement27",
+            "name": "Movement sensor in the room 8",
+            "summary": "It reports movement detected in the room and the last time movement was recorded.",
+            "properties": [
+                "movement",
+                "lastChange"
+            ],
+            "actions": [],
+            "events": []
+        },
+        {
+            "id": "acg:home:movement28",
+            "name": "Movement sensor in the room 9",
+            "summary": "It detects movement and reports when it last occurred in the room.",
+            "properties": [
+                "movement",
+                "lastChange"
+            ],
+            "actions": [],
+            "events": []
+        },
+        {
+            "id": "acg:home:movement29",
+            "name": "Movement sensor in the room 10",
+            "summary": "A movement sensor located in room_10 that reports whether movement is detected and the last time it was detected.",
+            "properties": [
+                "movement",
+                "lastChange"
+            ],
+            "actions": [],
+            "events": []
+        },
+        {
+            "id": "acg:home:movement3",
+            "name": "Movement sensor in the room 3",
+            "summary": "It reports whether movement is detected in the dining room and when it last occurred.",
+            "properties": [
+                "movement",
+                "lastChange"
+            ],
+            "actions": [],
+            "events": []
+        },
+        {
+            "id": "acg:home:movement4",
+            "name": "Movement sensor in the kitchen",
+            "summary": "It reports whether movement is detected in the kitchen and the last time movement was detected.",
+            "properties": [
+                "movement",
+                "lastChange"
+            ],
+            "actions": [],
+            "events": []
+        },
+        {
+            "id": "acg:home:movement5",
+            "name": "Movement sensor in the room 3",
+            "summary": "It reports movement detected in the room and the last time movement was detected.",
+            "properties": [
+                "movement",
+                "lastChange"
+            ],
+            "actions": [],
+            "events": []
+        },
+        {
+            "id": "acg:home:movement6",
+            "name": "Movement sensor in the bathroom",
+            "summary": "It reports movement detected by a sensor in the bathroom.",
+            "properties": [
+                "movement",
+                "lastChange"
+            ],
+            "actions": [],
+            "events": []
+        },
+        {
+            "id": "acg:home:questioningservice1",
+            "name": "Questioning service",
+            "summary": "It provides information about the smartphone in the dining room.",
+            "properties": [
+                "smartphone"
+            ],
+            "actions": [],
+            "events": []
+        },
+        {
+            "id": "acg:home:questioningservice2",
+            "name": "Questioning service",
+            "summary": "It reports the current smartphone status.",
+            "properties": [
+                "smartphone"
+            ],
+            "actions": [],
+            "events": []
+        },
+        {
+            "id": "acg:home:questioningservice3",
+            "name": "Questioning service",
+            "summary": "It provides information about the smartphone in the bedroom.",
+            "properties": [
+                "smartphone"
+            ],
+            "actions": [],
+            "events": []
+        },
+        {
+            "id": "acg:home:tempin1",
+            "name": "Temperature service",
+            "summary": "It reports the current temperature of the children bedroom.",
+            "properties": [
+                "tempin"
+            ],
+            "actions": [],
+            "events": []
+        },
+        {
+            "id": "acg:home:tempin10",
+            "name": "Temperature service",
+            "summary": "It reports the current temperature in the livingroom.",
+            "properties": [
+                "tempin"
+            ],
+            "actions": [],
+            "events": []
+        },
+        {
+            "id": "acg:home:tempin11",
+            "name": "Temperature service",
+            "summary": "It reports the temperature in the bathroom.",
+            "properties": [
+                "tempin"
+            ],
+            "actions": [],
+            "events": []
+        },
+        {
+            "id": "acg:home:tempin12",
+            "name": "Temperature service",
+            "summary": "Reports the current ambient temperature in the entrance.",
+            "properties": [
+                "tempin"
+            ],
+            "actions": [],
+            "events": []
+        },
+        {
+            "id": "acg:home:tempin13",
+            "name": "Temperature service",
+            "summary": "It reports the current temperature in the bedroom.",
+            "properties": [
+                "tempin"
+            ],
+            "actions": [],
+            "events": []
+        },
+        {
+            "id": "acg:home:tempin14",
+            "name": "Temperature service",
+            "summary": "It reports the current temperature in the shower room.",
+            "properties": [
+                "tempin"
+            ],
+            "actions": [],
+            "events": []
+        },
+        {
+            "id": "acg:home:tempin2",
+            "name": "Temperature service",
+            "summary": "It reports the current temperature of the parent bedroom.",
+            "properties": [
+                "tempin"
+            ],
+            "actions": [],
+            "events": []
+        },
+        {
+            "id": "acg:home:tempin20",
+            "name": "Temperature service",
+            "summary": "It reports the temperature of room_1.",
+            "properties": [
+                "tempin"
+            ],
+            "actions": [],
+            "events": []
+        },
+        {
+            "id": "acg:home:tempin21",
+            "name": "Temperature service",
+            "summary": "It reports the temperature of room_2.",
+            "properties": [
+                "tempin"
+            ],
+            "actions": [],
+            "events": []
+        },
+        {
+            "id": "acg:home:tempin22",
+            "name": "Temperature service",
+            "summary": "It reports the temperature of room_3.",
+            "properties": [
+                "tempin"
+            ],
+            "actions": [],
+            "events": []
+        },
+        {
+            "id": "acg:home:tempin23",
+            "name": "Temperature service",
+            "summary": "It reports the current temperature in room 4.",
+            "properties": [
+                "tempin"
+            ],
+            "actions": [],
+            "events": []
+        },
+        {
+            "id": "acg:home:tempin24",
+            "name": "Temperature service",
+            "summary": "It reports the current ambient temperature in room_5.",
+            "properties": [
+                "tempin"
+            ],
+            "actions": [],
+            "events": []
+        },
+        {
+            "id": "acg:home:tempin25",
+            "name": "Temperature service",
+            "summary": "It reports the current temperature of room_6.",
+            "properties": [
+                "tempin"
+            ],
+            "actions": [],
+            "events": []
+        },
+        {
+            "id": "acg:home:tempin26",
+            "name": "Temperature service",
+            "summary": "It reports the current temperature in room_7.",
+            "properties": [
+                "tempin"
+            ],
+            "actions": [],
+            "events": []
+        },
+        {
+            "id": "acg:home:tempin27",
+            "name": "Temperature service",
+            "summary": "It reports the current temperature in room_8.",
+            "properties": [
+                "tempin"
+            ],
+            "actions": [],
+            "events": []
+        },
+        {
+            "id": "acg:home:tempin28",
+            "name": "Temperature service",
+            "summary": "Reports the temperature of room_9.",
+            "properties": [
+                "tempin"
+            ],
+            "actions": [],
+            "events": []
+        },
+        {
+            "id": "acg:home:tempin29",
+            "name": "Temperature service",
+            "summary": "It reports the current temperature in room_10.",
+            "properties": [
+                "tempin"
+            ],
+            "actions": [],
+            "events": []
+        },
+        {
+            "id": "acg:home:tempin3",
+            "name": "Temperature service",
+            "summary": "It reports the current temperature of the dining room.",
+            "properties": [
+                "tempin"
+            ],
+            "actions": [],
+            "events": []
+        },
+        {
+            "id": "acg:home:tempin4",
+            "name": "Temperature service",
+            "summary": "It reports the current ambient temperature in the kitchen.",
+            "properties": [
+                "tempin"
+            ],
+            "actions": [],
+            "events": []
+        },
+        {
+            "id": "acg:home:tempin5",
+            "name": "Temperature service",
+            "summary": "It reports the current temperature of the room in the garage.",
+            "properties": [
+                "tempin"
+            ],
+            "actions": [],
+            "events": []
+        },
+        {
+            "id": "acg:home:tempin6",
+            "name": "Temperature service",
+            "summary": "It reports the current temperature in the bathroom.",
+            "properties": [
+                "tempin"
+            ],
+            "actions": [],
+            "events": []
+        },
+        {
+            "id": "acg:home:washingmachine1",
+            "name": "Washing machine",
+            "summary": "It reports whether the washing machine is on or off.",
+            "properties": [
+                "washing"
+            ],
+            "actions": [],
+            "events": []
+        },
+        {
+            "id": "acg:home:washingmachine3",
+            "name": "Washing machine",
+            "summary": "It reports the current status of the washing machine (on/off).",
+            "properties": [
+                "washing"
+            ],
+            "actions": [],
+            "events": []
+        }
+    ]
+}

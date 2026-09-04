@@ -1,0 +1,92 @@
+{
+    "candidates": [
+        {
+            "td_id": "acg:home:movement4",
+            "selector_score": 0.92,
+            "retrieval_reason": "Kitchen-located movement sensor directly matches presence/occupancy detection requirement; current occupancy value must be verified at runtime.",
+            "td": {
+                "id": "acg:home:movement4",
+                "@context": "https://www.w3.org/2019/wot/td/v1",
+                "actions": {},
+                "base": "http://localhost/agent4/movement4",
+                "description": "Movement sensor located in kitchen",
+                "events": {},
+                "links": [],
+                "properties": {
+                    "movement": {
+                        "title": "Movement detected by the sensor",
+                        "description": "Value of the movement sensor that changes if it detects movement in the room",
+                        "type": "boolean",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent4/movement4/movement",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    },
+                    "lastChange": {
+                        "title": "Last time movement was detected",
+                        "description": "It indicates the last time the movement sensor detected movement",
+                        "type": "number",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent4/movement4/lastChange",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "security": "nosec_sc",
+                "securityDefinitions": {
+                    "nosec_sc": {
+                        "scheme": "nosec"
+                    }
+                },
+                "title": "Movement sensor in the kitchen"
+            }
+        },
+        {
+            "td_id": "acg:home:tempin4",
+            "selector_score": 0.92,
+            "retrieval_reason": "Kitchen-located temperature service directly matches temperature measurement requirement; current temperature value must be verified at runtime.",
+            "td": {
+                "id": "acg:home:tempin4",
+                "@context": "https://www.w3.org/2019/wot/td/v1",
+                "base": "http://localhost/agent4/tempin4",
+                "description": "Temperature service located in kitchen",
+                "events": {},
+                "links": [],
+                "properties": {
+                    "tempin": {
+                        "title": "Temperature",
+                        "description": "Temperature of the room",
+                        "type": "number",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent4/tempin4",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "security": "nosec_sc",
+                "securityDefinitions": {
+                    "nosec_sc": {
+                        "scheme": "nosec"
+                    }
+                },
+                "title": "Temperature service"
+            }
+        }
+    ],
+    "missing_td_ids": []
+}

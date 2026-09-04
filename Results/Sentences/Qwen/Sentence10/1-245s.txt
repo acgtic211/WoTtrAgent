@@ -1,0 +1,52 @@
+{
+    "candidates": [
+        {
+            "td_id": "acg:home:light2",
+            "selector_score": 0.95,
+            "retrieval_reason": "Apparent satisfaction of mandatory conditions and required affordances.",
+            "td": {
+                "id": "acg:home:light2",
+                "@context": "https://www.w3.org/2019/wot/td/v1",
+                "actions": {
+                    "lightOn": {
+                        "title": "Change status of the light",
+                        "forms": [
+                            {
+                                "op": "invokeaction",
+                                "href": "http://localhost/agent2/lightcontrol2/lightOn"
+                            }
+                        ]
+                    }
+                },
+                "base": "http://localhost/agent2/lightcontrol2",
+                "description": "Light bulb located in parent bedroom",
+                "events": {},
+                "links": [],
+                "properties": {
+                    "lightOn": {
+                        "title": "Status of the light",
+                        "description": "Value of the light bulb that changes if the light is turned on/off",
+                        "type": "boolean",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent2/lightcontrol2/lightOn",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "security": "nosec_sc",
+                "securityDefinitions": {
+                    "nosec_sc": {
+                        "scheme": "nosec"
+                    }
+                },
+                "title": "Light bulb"
+            }
+        }
+    ],
+    "missing_td_ids": []
+}

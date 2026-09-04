@@ -1,0 +1,33 @@
+{
+    "id": "acg:home:tempin25",
+    "@context": "https://www.w3.org/2019/wot/td/v1",
+    "createdAt": "2024-04-08T11:18:39.961Z",
+    "description": "Temperature service located in room_6",
+    "base": "http://localhost/agent25/tempin25",
+    "events": {},
+    "links": [],
+    "properties": {
+        "tempin": {
+            "title": "Temperature",
+            "description": "Temperature of the room",
+            "type": "number",
+            "forms": [
+                {
+                    "href": "http://localhost/agent25/tempin25",
+                    "contentType": "application/json",
+                    "op": [
+                        "readproperty"
+                    ]
+                }
+            ]
+        }
+    },
+    "security": "nosec_sc",
+    "securityDefinitions": {
+        "nosec_sc": {
+            "scheme": "nosec"
+        }
+    },
+    "title": "Temperature service",
+    "updatedAt": "2024-04-08T11:18:39.961Z"
+}

@@ -1,0 +1,20 @@
+{
+    "definition": {
+        "openapi": "3.0.0",
+        "info": {
+            "title": "WoT Discovery API",
+            "version": "1.0.1",
+            "description": "This is the WoT Discovery API. It is used to discover WoT Things and register Thing Descriptions. It is based on the [WoT Discovery draft specification](https://w3c.github.io/wot-discovery/). <br><br> Related APIs: <br><br> <a href='https://acgsaas.ual.es/wot-lab/api/ui#/'>WoT Lab API</a> <br> <a href='https://acgsaas.ual.es/urbanapi/api#/'>UrbanAPI</a>",
+            "contact": {
+                "name": "Juan Alberto Llopis Expósito",	
+                "email": "jalbertollopis@ual.es"
+            }
+        },
+        "servers": [
+            {
+                "url": "http://acg.ual.es/projects/cosmart/wot-lab/ds/"
+            }
+        ]
+    },
+    "apis": ["./routes/*.js"]
+}

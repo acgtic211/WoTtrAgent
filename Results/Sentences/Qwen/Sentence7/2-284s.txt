@@ -1,0 +1,161 @@
+{
+    "candidates": [
+        {
+            "td_id": "acg:home:heatingcontrol1",
+            "selector_score": 0.85,
+            "retrieval_reason": "It controls the thermostat status in the dining room, which is located in the comedor.",
+            "td": {
+                "id": "acg:home:heatingcontrol1",
+                "@context": "https://www.w3.org/2019/wot/td/v1",
+                "actions": {
+                    "heatingcontrol": {
+                        "title": "Change the status of the thermostat",
+                        "description": "Turn the thermostat on or off",
+                        "type": "boolean",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent3/heatingcontrol1",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "base": "http://localhost/agent3/heatingcontrol1",
+                "description": "Thermostat controller located in dinning room",
+                "events": {},
+                "links": [],
+                "properties": {
+                    "heatingOn": {
+                        "title": "Thermostat status",
+                        "description": "If the thermostat is on or off",
+                        "type": "boolean",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent3/heatingcontrol1/heatingOn",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "security": "nosec_sc",
+                "securityDefinitions": {
+                    "nosec_sc": {
+                        "scheme": "nosec"
+                    }
+                },
+                "title": "Thermostat controller"
+            }
+        },
+        {
+            "td_id": "acg:home:heatingcontrol3",
+            "selector_score": 0.85,
+            "retrieval_reason": "It controls and reports the status of a thermostat located in the watter room, which is also part of the comedor.",
+            "td": {
+                "id": "acg:home:heatingcontrol3",
+                "@context": "https://www.w3.org/2019/wot/td/v1",
+                "actions": {
+                    "heatingcontrol": {
+                        "title": "Change the status of the thermostat",
+                        "description": "Turn the thermostat on or off",
+                        "type": "boolean",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent12/heatingcontrol3",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "base": "http://localhost/agent12/heatingcontrol3",
+                "description": "Thermostat controller located in entrance",
+                "events": {},
+                "links": [],
+                "properties": {
+                    "heatingOn": {
+                        "title": "Thermostat status",
+                        "description": "If the thermostat is on or off",
+                        "type": "boolean",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent12/heatingcontrol3/heatingOn",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "security": "nosec_sc",
+                "securityDefinitions": {
+                    "nosec_sc": {
+                        "scheme": "nosec"
+                    }
+                },
+                "title": "Thermostat controller"
+            }
+        },
+        {
+            "td_id": "acg:home:heatingcontrol4",
+            "selector_score": 0.85,
+            "retrieval_reason": "It controls the heating on or off in room_6, which is part of the comedor.",
+            "td": {
+                "id": "acg:home:heatingcontrol4",
+                "@context": "https://www.w3.org/2019/wot/td/v1",
+                "actions": {
+                    "heatingcontrol": {
+                        "title": "Change the status of the thermostat",
+                        "description": "Turn the thermostat on or off",
+                        "type": "boolean",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent25/heatingcontrol4",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "base": "http://localhost/agent25/heatingcontrol4",
+                "description": "Thermostat controller located in room_6",
+                "events": {},
+                "links": [],
+                "properties": {
+                    "heatingOn": {
+                        "title": "Thermostat status",
+                        "description": "If the thermostat is on or off",
+                        "type": "boolean",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent25/heatingcontrol4/heatingOn",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "security": "nosec_sc",
+                "securityDefinitions": {
+                    "nosec_sc": {
+                        "scheme": "nosec"
+                    }
+                },
+                "title": "Thermostat controller"
+            }
+        }
+    ],
+    "missing_td_ids": []
+}

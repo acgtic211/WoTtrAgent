@@ -1,0 +1,48 @@
+{
+    "id": "acg:home:movement25",
+    "@context": "https://www.w3.org/2019/wot/td/v1",
+    "actions": {},
+    "createdAt": "2024-04-08T11:18:39.961Z",
+    "description": "Movement sensor located in room_6",
+    "base": "http://localhost/agent25/movement25",
+    "events": {},
+    "links": [],
+    "properties": {
+        "movement": {
+            "title": "Movement detected by the sensor",
+            "description": "Value of the movement sensor that changes if it detects movement in the room",
+            "type": "boolean",
+            "forms": [
+                {
+                    "href": "http://localhost/agent25/movement25/movement",
+                    "contentType": "application/json",
+                    "op": [
+                        "readproperty"
+                    ]
+                }
+            ]
+        },
+        "lastChange": {
+            "title": "Last time movement was detected",
+            "description": "It indicates the last time the movement sensor detected movement",
+            "type": "number",
+            "forms": [
+                {
+                    "href": "http://localhost/agent25/movement25/lastChange",
+                    "contentType": "application/json",
+                    "op": [
+                        "readproperty"
+                    ]
+                }
+            ]
+        }
+    },
+    "security": "nosec_sc",
+    "securityDefinitions": {
+        "nosec_sc": {
+            "scheme": "nosec"
+        }
+    },
+    "title": "Movement sensor in the room 6",
+    "updatedAt": "2024-04-08T11:18:39.961Z"
+}

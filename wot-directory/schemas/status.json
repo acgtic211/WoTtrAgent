@@ -1,0 +1,17 @@
+{
+    "status": {
+        "type": "object",
+        "description": "Shows if the door is open",
+        "properties": {
+           
+        },
+        "forms": [
+            {
+                "href": "",
+                "op": "readproperty",
+                "contentType": "application/json",
+                "subprotocol": "websub"
+            }
+        ]
+    }
+}

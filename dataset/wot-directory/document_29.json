@@ -1,0 +1,49 @@
+{
+    "id": "acg:home:doorlock4",
+    "@context": "https://www.w1.org/2019/wot/td/v1",
+    "createdAt": "2024-04-08T11:18:19.961Z",
+    "description": "Door lock service in room_1",
+    "base": "http://localhost/agent20/doorlock4",
+    "events": {},
+    "links": [],
+    "properties": {
+        "open": {
+            "title": "Door lock status",
+            "description": "If the door is opened or not",
+            "type": "boolean",
+            "forms": [
+                {
+                    "href": "http://localhost/agent20/doorlock4/open",
+                    "contentType": "application/json",
+                    "op": [
+                        "readproperty"
+                    ]
+                }
+            ]
+        }
+    },
+    "action": {
+        "open": {
+            "title": "Modify the door lock",
+            "description": "Open or close the doorlock",
+            "type": "boolean",
+            "forms": [
+                {
+                    "href": "http://localhost/agent20/doorlock4/open",
+                    "contentType": "application/json",
+                    "op": [
+                        "readproperty"
+                    ]
+                }
+            ]
+        }
+    },
+    "security": "nosec_sc",
+    "securityDefinitions": {
+        "nosec_sc": {
+            "scheme": "nosec"
+        }
+    },
+    "title": "Door lock service",
+    "updatedAt": "2024-04-08T11:18:19.961Z"
+}

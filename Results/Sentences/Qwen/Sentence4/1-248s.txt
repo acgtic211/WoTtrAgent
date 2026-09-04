@@ -1,0 +1,52 @@
+{
+    "candidates": [
+        {
+            "td_id": "acg:home:light13",
+            "selector_score": 0.95,
+            "retrieval_reason": "The device controls a light bulb located in the bedroom, which matches the specified location and is capable of being turned on or off.",
+            "td": {
+                "id": "acg:home:light13",
+                "@context": "https://www.w3.org/2019/wot/td/v1",
+                "actions": {
+                    "lightOn": {
+                        "title": "Change status of the light",
+                        "forms": [
+                            {
+                                "op": "invokeaction",
+                                "href": "http://localhost/agent13/lightcontrol13/lightOn"
+                            }
+                        ]
+                    }
+                },
+                "base": "http://localhost/agent13/lightcontrol13",
+                "description": "Light bulb located in bedroom",
+                "events": {},
+                "links": [],
+                "properties": {
+                    "lightOn": {
+                        "title": "Status of the light",
+                        "description": "Value of the light bulb that changes if the light is turned on/off",
+                        "type": "boolean",
+                        "forms": [
+                            {
+                                "href": "http://localhost/agent13/lightcontrol13/lightOn",
+                                "contentType": "application/json",
+                                "op": [
+                                    "readproperty"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "security": "nosec_sc",
+                "securityDefinitions": {
+                    "nosec_sc": {
+                        "scheme": "nosec"
+                    }
+                },
+                "title": "Light bulb"
+            }
+        }
+    ],
+    "missing_td_ids": []
+}
